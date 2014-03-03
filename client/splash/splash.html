@@ -1,0 +1,29 @@
+<template name="splash"> 
+  <div class="row">
+    <div class="col-sm-5 col-sm-offset-3 text-center">  
+      <h1> Welcome to Data Broccoli </h1>
+      <form  style="padding-bottom:10px" role="form" id="sign_up_form">
+        <div class="form-group {{valid_user_name}}">
+          <input type="text" class="form-control" name="username" placeholder="Pick a Name">
+
+          <span class="help-block">
+            <ul class="list-unstyled">
+                {{{formErrors "username"}}}
+            </ul>
+          </span>
+        </div>
+        <div class="form-group {{valid_password}}">
+          <input type="password" class="form-control" name="password" placeholder="Create a Password">
+          <span class="help-block">
+            <ul class="list-unstyled">
+                {{{formErrors "password"}}}
+            </ul>
+          </span>
+        </div>
+        <button type="submit" class="btn btn-default btn-warning">Sign In / Sign Up</button>
+      </form>
+      <a href="/passwordReset"> forgot your password? </a> 
+      <br/>
+    </div>
+  </div>
+</template>

@@ -1,0 +1,77 @@
+<template name="broccoli">
+  <div class="container"> 
+    <div class="row"> 
+      <div class="col-md-12">
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <!-- Data Graph Tab -->
+            <div class="tab-pane active" id="dataGraph">
+              <h1> Data Graph </h1>
+              <h1> (goes here)</h1>
+              {{> dataGraph}}
+            </div>
+            <!-- Data Table Tab -->
+            <div class="tab-pane" id="dataTable">
+              <h1> Data Table </h1>
+              <table width="100%">
+                <tr>
+                  <td valign="top" width="10%">
+                    <div style="border:1px solid gray;background:wheat;padding:6px;">
+                      <label>Show p1.y with % at least: </label>
+                      <div style="padding:4px;">
+                        <div style="width:100px;" id="pcSlider"></div>
+                      </div>
+                      <br>
+
+                    </div>
+                    <br>
+
+                    <div id="myGrid" style="width:1000px;height:800px;"></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="tab-pane" id="n2">
+             <h3>N squared Diagram goes here. </h3>
+            </div>
+            <div class="tab-pane" id="settings">
+              <h3>Placeholder...</h3>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div> 
+</template>
+
+<template name="githubTable">
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">OpenMDAO Graph Compatible Repos</h3>
+    </div>
+    <div class="panel-body">
+      <table class="table table-hover repo-list">
+        <tbody>
+          <tr>
+            <td></td>
+            <td><a href="/jcchin/Hyperloop">Hyperloop
+                <p>An open source Hyperloop model built in openmdao</p>
+              </a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><a href="/jcchin/cadre">Cadre
+                <p>A cubesat optimization</p>
+              </a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><a href="/jcchin/sellar">sellar.py
+                <p>Pedagogical openMDAO example</p>
+              </a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</template>

@@ -1,0 +1,40 @@
+<template name="header">
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Data Broccoli</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      {{> user_info}}
+    </div>
+  </nav>
+
+</template>
+
+<template name="user_info">
+  <ul class="nav navbar-nav navbar-right">
+    {{#if currentUser}}
+      {{> user_loggedin}}
+    {{else}}
+      {{! {{> user_loggedout}} }}
+    {{/if}}
+  </ul>
+</template>
+
+<template name="user_loggedin">
+  {{#if loggingIn}}
+    <li><a>Logging in...</a></li>
+  {{else}}
+    <li> <a href="/logout">Log Out </a></li>
+  {{/if}}
+</template>
+
+<template name="user_loggedout">
+  
+</template>

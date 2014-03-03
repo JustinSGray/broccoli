@@ -1,0 +1,42 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.navbar-inverse {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+.panel, .table-hover {
+  margin-bottom: 5px;
+}
+.panel-body{
+  padding: 0px;
+}
+
+
+
+/* table */
+.cell-title {
+  font-weight: bold;
+}
+
+.cell-effort-driven {
+  text-align: center;
+}
+
+.toggle {
+  height: 9px;
+  width: 9px;
+  display: inline-block;
+}
+
+.toggle.expand {
+  background: url(../lib/slickgrid/images/expand.gif) no-repeat center center;
+}
+
+.toggle.collapse {
+  background: url(../lib/slickgrid/images/collapse.gif) no-repeat center center;
+}

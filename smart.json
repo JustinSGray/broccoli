@@ -1,0 +1,10 @@
+{
+  "packages": {
+    "iron-router": {},
+    "bootstrap-3": {},
+    "regulate.js": {
+      "git": "https://github.com/JustinSGray/regulate-meteor.git"
+    },
+    "github-api": {}
+  }
+}
