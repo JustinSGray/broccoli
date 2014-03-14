@@ -10,29 +10,36 @@
       <a class="navbar-brand" href="#">Data Broccoli</a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
+    
+    {{#unless currentUser}}
+    {{!<form class="navbar-form navbar-right" role="search">
+      <div class="form-group">
+        <input type="text" class="form-control" name="username" placeholder="Username">
+      </div>
+      <div class="form-group">
+        <input type="password" class="form-control" name="password" placeholder="Password">
+      </div>
+      <button type="submit" class="btn btn-default btn-sm">Log In</button>
+    </form>}}
+    {{else}}
+
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      {{> user_info}}
+      {{> userLoggedIn}}
     </div>
+    {{/unless}}
   </nav>
 
 </template>
 
-<template name="user_info">
+<template name="userLoggedIn">
   <ul class="nav navbar-nav navbar-right">
-    {{#if currentUser}}
-      {{> user_loggedin}}
+    {{#if loggingIn}}
+      <li><a>Logging in...</a></li>
     {{else}}
-      {{! {{> user_loggedout}} }}
+      <li> <a class="navbar-brand"> Logged in as {{currentUser.username}} </a> </li>
+      <li> <a href="/logout">Log Out </a></li>
     {{/if}}
   </ul>
-</template>
-
-<template name="user_loggedin">
-  {{#if loggingIn}}
-    <li><a>Logging in...</a></li>
-  {{else}}
-    <li> <a href="/logout">Log Out </a></li>
-  {{/if}}
 </template>
 
 <template name="user_loggedout">

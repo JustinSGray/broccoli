@@ -35,19 +35,25 @@ suite('username availability checking', function() {
   });
 
   test('client side: when name is not available', function(done, server, client) {
+    
+    client.eval(function() {
 
-    var avail = server.eval(function() {
-      Accounts.createUser({username: 'test', password: '123456'});
+      var loggedOutCb = function() {
+        var is_avail = Regulate.Rules.nameAvail('test');
+        emit('created', is_avail);
+      }
 
-      emit('userCreated');    
+      var createdCb = function(error){
+        Meteor.logout(loggedOutCb);
+      }
+      
+      Accounts.createUser({username: 'test', password: '123456'}, createdCb);
+    }).once('created', function(is_avail){
+      assert.equal(is_avail, false);
+      done();
     });
 
-    client.once('userCreate', function() {
-      var is_avail = Regulate.Rules.nameAvail('test');
-      assert.equal(avail, false);
-    });
-
-    done();
+    //done();
   });
 
 });
