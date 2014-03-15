@@ -1,6 +1,6 @@
 
 var assert = require('assert');
-
+var _ = require('underscore');
 
 function setup(client, cb) {
   client.eval(function() {
@@ -44,33 +44,44 @@ suite('Project functionality', function() {
     client.once('userCreated', function(){ 
       client.eval(function(){
         waitForDOM('#new-project-form', function(){
+
           var form = $('#new-project-form');
           var formGroup = form.find('.form-group'); 
-    
           // starts without error class, no error msg
-          emit('hasClass',formGroup.hasClass('has-error'));
-          emit('helpText', form.find('.help-block').text().replace(/ /g,''));
+          emit('before-hasClass',formGroup.hasClass('has-error'));
+          emit('before-helpText', _.toArray(form.find('.help-block ul li')));
 
-          form.find('button').click() //empty form
-          emit('submitted');
-          emit('return');
+          form.find('button').click(); //empty form
+          //console.log($(form.find('.form-err-msg')));
+
+          waitForDOM('.form-err-msg', function(){
+            var formGroup = form.find('.form-group'); 
+            // gets  error class with error msg
+
+            var errors = formGroup.find('.help-block ul li').toArray();
+            errors = _.map(errors, function(elem){return $(elem).text();});
+            console.log(errors);
+            emit('after-hasClass',formGroup.hasClass('has-error'));
+            emit('after-helpText', errors);
+            emit('return');
+          });
+          emit('return'); 
         });
-      }).once('hasClass', function(hasClass){
+
+
+
+      }).once('before-hasClass', function(hasClass){
         assert.equal(hasClass, false);
-      }).once('helpText', function(helpText){
-        assert.equal(helpText, '');
+      }).once('before-helpText', function(helpText){
+        assert.equal(helpText.length, 0);
+      }).once('after-hasClass', function(hasClass){
+        assert.equal(hasClass, true);
+      }).once('after-helpText', function(helpText){
+        assert.equal(helpText.length, 1);
+        assert.equal(helpText[0], 'You must give your project a name');
+        done();
       });
-      
     });
-
-    client.once('submitted', function() {
-      // should get error class and report error message
-      assert.equal(formGroup.hasClass('has-error'), true);
-      assert.equal(form.find('.help-block').text(), "Provide a name for the project.");
-    
-      done();
-    });
-
   });
 
   test('Valid name creates a project', function(done, server, client) {
@@ -87,3 +98,4 @@ suite('Project functionality', function() {
 
   });
 });
+
