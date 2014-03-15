@@ -49,7 +49,7 @@ suite('Project functionality', function() {
     
           // starts without error class, no error msg
           emit('hasClass',formGroup.hasClass('has-error'));
-          emit('helpText', form.find('.help-block').text());
+          emit('helpText', form.find('.help-block').text().replace(/ /g,''));
 
           form.find('button').click() //empty form
           emit('submitted');
