@@ -32,7 +32,7 @@ Meteor.startup(function(){
 set_form_errors = function(error) {
     console.log('Form validation failed. These are the errors: ', error);
     var form_errors = {}
-    _.each(error, function(errs, key, list){
+    _.each(error, function(errs, key){
         form_errors[key] = errs;
     });
     Session.set('form-errors', form_errors);
