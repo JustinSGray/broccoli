@@ -55,9 +55,7 @@ suite('Project functionality', function() {
           //console.log($(form.find('.form-err-msg')));
 
           waitForDOM('.form-err-msg', function(){
-            var formGroup = form.find('.form-group'); 
             // gets  error class with error msg
-
             var errors = formGroup.find('.help-block ul li').toArray();
             errors = _.map(errors, function(elem){return $(elem).text();});
             console.log(errors);
@@ -67,9 +65,6 @@ suite('Project functionality', function() {
           });
           emit('return'); 
         });
-
-
-
       }).once('before-hasClass', function(hasClass){
         assert.equal(hasClass, false);
       }).once('before-helpText', function(helpText){
@@ -79,21 +74,48 @@ suite('Project functionality', function() {
       }).once('after-helpText', function(helpText){
         assert.equal(helpText.length, 1);
         assert.equal(helpText[0], 'You must give your project a name');
-        done();
       });
     });
   });
 
   test('Valid name creates a project', function(done, server, client) {
-    client.eval(function() {
-      var form = $('#new-project-form');
-      form.find('input[name=project-name]').val('foobar');
 
-      form.find('button').click() //empty form
-      emit('submitted');
-    }).once('submitted', function(){
-      // Should show up in the list of projects, with the proper name
-      done();
+    setup(client);
+
+    client.once('userCreated', function(){
+      server.eval(function(){
+        Projects.find().observe({
+          added: function(doc) {
+            emit('projectAdded', doc);
+          }
+        });
+      });
+
+      client.eval(function(){
+        waitForDOM('#new-project-form', function(){
+          var form = $('#new-project-form');
+          var formGroup = form.find('.form-group');
+
+          form.find('button').click(); //empty form just to create an error, so I can make sure it's not still there after I put something in there
+          form.find('input[name="project-name"]').val('foobar');
+          form.find('button').click(); 
+          
+          emit('return');
+        });
+      });
+    });
+
+    server.once('projectAdded', function(doc){
+      //this is a roundabout, but unfortunately necessary way of getting the given userId... 
+      server.eval(function(){ 
+        var uId = Meteor.users.findOne({username:'test'})._id;
+        emit('userId', uId);
+      });
+      server.once('userId', function(userId){
+        assert.equal(doc.name, 'foobar'); 
+        assert.equal(doc.userId, userId);
+        done();
+      });
     });
 
   });

@@ -14,7 +14,9 @@ Meteor.startup(function(){
       return false;
     }
 
-    console.log('Create New Project!!  ' + data[0].value);
+    //console.log('Create New Project!!  ' + data[0].value);
+    var projName = data[0].value;
+    Projects.insert({name:projName, userId:Meteor.userId()});
 
   });
 });
