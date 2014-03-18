@@ -1,11 +1,8 @@
-
-Template.dashboard.events = {
-  'click #new-project': function(event){
-    
-  }
+Template.dashboard.projects = function(){
+  return Projects.find({userId:Meteor.userId()});
 }
 
-
+// Form Validation
 Meteor.startup(function(){
 
   Regulate['#new-project-form'].onSubmit(function(error, data){

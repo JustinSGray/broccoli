@@ -12,6 +12,8 @@ Router.map( function() {
       if (u) {
         this.redirect(Router.routes['dashboard'].path({username: u.username}))
       }
+
+      Meteor.subscribe('Projects')
     }
   });
 

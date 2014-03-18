@@ -17,5 +17,14 @@
         </div>
       </form>
     </div>
+    <div class="row">
+      {{#if projects}}
+        <ul class="list-unstyled" id="project-list">
+          {{#each projects}}
+              <li>{{this.name}}</li>
+          {{/each}}
+        </ul>
+      {{/if}}
+    </div>
   </div>
 </template>

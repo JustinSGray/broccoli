@@ -110,12 +110,27 @@ suite('Project functionality', function() {
       //this is a roundabout, but unfortunately necessary way of getting the given userId... 
       server.eval(function(){ 
         var uId = Meteor.users.findOne({username:'test'})._id;
-        var count
         emit('userId', uId);
+        var count = Meteor.users.find().count();
+        emit('projectCount', count);
+
       });
       server.once('userId', function(userId){
         assert.equal(doc.name, 'foobar'); 
         assert.equal(doc.userId, userId);
+      }).once('projectCount',function(count){
+        assert.equal(count, 1);
+      });
+
+      // make sure it shows up in the dom
+      client.eval(function(){
+        waitForDOM('#project-list', function(){
+          var items = $('#project-list').find('li');
+          //emit('projectCount', items.length);
+          emit('projectCount', items.length);
+        });
+      }).once('projectCount',function(projectCount){
+        assert.equal(projectCount, 1);
         done();
       });
     });
