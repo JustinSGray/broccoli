@@ -110,6 +110,7 @@ suite('Project functionality', function() {
       //this is a roundabout, but unfortunately necessary way of getting the given userId... 
       server.eval(function(){ 
         var uId = Meteor.users.findOne({username:'test'})._id;
+        var count
         emit('userId', uId);
       });
       server.once('userId', function(userId){
