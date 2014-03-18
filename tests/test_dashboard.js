@@ -74,6 +74,7 @@ suite('Project functionality', function() {
       }).once('after-helpText', function(helpText){
         assert.equal(helpText.length, 1);
         assert.equal(helpText[0], 'You must give your project a name');
+        done();
       });
     });
   });
