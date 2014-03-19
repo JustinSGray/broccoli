@@ -1,5 +1,5 @@
 Template.dashboard.projects = function(){
-  return Projects.find({userId:Meteor.userId()});
+  return Projects.find();
 }
 
 // Form Validation

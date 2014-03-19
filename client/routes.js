@@ -12,8 +12,6 @@ Router.map( function() {
       if (u) {
         this.redirect(Router.routes['dashboard'].path({username: u.username}))
       }
-
-      Meteor.subscribe('Projects')
     }
   });
 
@@ -24,7 +22,10 @@ Router.map( function() {
 
   this.route('dashboard', {
     path: '/:username',
-    template: 'dashboard'
+    template: 'dashboard', 
+    waitOn: function() {
+      Meteor.subscribe('user_projects');
+    }
   });
 
 });
