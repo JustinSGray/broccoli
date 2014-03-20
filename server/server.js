@@ -1,4 +1,4 @@
-Meteor.publish('user_projects', function(){
+Meteor.publish('userProjects', function(){
   //return Projects.find();
   if (this.userId) {
      return Projects.find({userId: this.userId});
@@ -8,3 +8,6 @@ Meteor.publish('user_projects', function(){
 });
 
 
+Meteor.publish('userData', function(){
+  return Meteor.users.find({},{fields: {'username': 1}});
+});

@@ -1,14 +1,3 @@
-Template.logout.rendered = function(){
-  Meteor.logout(function(err){
-    if (err) {
-      Meteor._debug(err);
-    }
-    else{
-      Router.go("/");
-    }
-  });
-};
-
 Handlebars.registerHelper('list', function() {
   object = Meteor.user().profile  
 

@@ -39,6 +39,7 @@ suite('username availability checking', function() {
     client.eval(function() {
 
       var loggedOutCb = function() {
+        console.log("Hello:  ", Meteor.users.find().count());
         var is_avail = Regulate.Rules.nameAvail('test');
         emit('created', is_avail);
       }
@@ -46,7 +47,6 @@ suite('username availability checking', function() {
       var createdCb = function(error){
         Meteor.logout(loggedOutCb);
       }
-      
       Accounts.createUser({username: 'test', password: '123456'}, createdCb);
     }).once('created', function(is_avail){
       assert.equal(is_avail, false);
