@@ -1,5 +1,4 @@
 Meteor.publish('userProjects', function(){
-  //return Projects.find();
   if (this.userId) {
      return Projects.find({userId: this.userId});
   } else {

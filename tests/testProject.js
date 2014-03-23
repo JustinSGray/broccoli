@@ -27,13 +27,13 @@ suite('Project collection behavior', function() {
         });
       }).once('name with spaces', function(proj){
         console.
-        assert(proj.safeName, 'name-with-spaces');
+        assert(proj.urlName, 'name-with-spaces');
       }).once('name with "', function(proj){
-        assert(proj.safeName, 'name-with');
+        assert(proj.urlName, 'name-with');
       }).once('name with 123', function(proj){
-        assert(proj.safeName, 'name-with-123');
+        assert(proj.urlName, 'name-with-123');
       }).once('Name With CAPS', function(proj){
-        assert(proj.safeName, 'name-with-caps');
+        assert(proj.urlName, 'name-with-caps');
         done();
       });
 
@@ -42,8 +42,6 @@ suite('Project collection behavior', function() {
         Projects.insert({name:'name with "'});
         Projects.insert({name:'name with 123'});
         Projects.insert({name:'Name With CAPS'});
-
-       
       });
 
     };
@@ -51,12 +49,13 @@ suite('Project collection behavior', function() {
     run_test(client, test);
   });
 });
+
 suite('Project creation behavior', function(){
-  test('name availability', function(done, server, client) {
+  test('for name availability', function(done, server, client) {
 
     var test = function() {
       client.eval(function(){
-        emit('goodName', Regulate.Rules.projectNameAvail('test'));
+        emit('goodName', Regulate.Rules.projectNameAvail('test test'));
 
         function false_emit_maker(num, name){ // makes emits for bad names
           var cb = function() {
@@ -66,11 +65,12 @@ suite('Project creation behavior', function(){
           return cb;
         }
 
-        Projects.insert({name:'test', userId:Meteor.userId()}, false_emit_maker(1, 'test'));
+        Projects.insert({name:'test test', userId:Meteor.userId()}, false_emit_maker(1, 'test test'));
 
         // should strip leading and trailing white space
-        false_emit_maker(2, 'test ')();
-        false_emit_maker(3, ' test ')();
+        false_emit_maker(2, 'test test ')();
+        false_emit_maker(3, ' test test ')();
+        false_emit_maker(4, 'test-test')();
 
       }).once('goodName', function(isAvail){
         assert.equal(isAvail, true);
@@ -80,9 +80,37 @@ suite('Project creation behavior', function(){
         assert.equal(isAvail, false);
       }).once('badName3', function(isAvail){
         assert.equal(isAvail, false);
+      }).once('badName4', function(isAvail){
+        assert.equal(isAvail, false);
         done();
       });
     };
+
+    run_test(client, test);
+  });
+});
+
+suite('Project Page', function(){
+  test('loading', function(done, server, client){
+
+    var test = function() {
+      client.eval(function(){
+
+        var cb = function(){
+          emit('projectCreated');
+        }
+        Projects.insert({name:'test test', userId:Meteor.userId()}, cb);
+      
+      }).once('projectCreated', function(){
+        client.eval(function(){
+          Router.go('/projects/test-test');
+          emit('projName', Template.project.proj().name);
+        });
+      }).once('projName', function(name){
+        assert.equal(name, 'test test');
+        done();
+      });
+    }
 
     run_test(client, test);
   });

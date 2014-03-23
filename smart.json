@@ -5,6 +5,7 @@
     "regulate.js": {
       "git": "https://github.com/JustinSGray/regulate-meteor.git"
     },
-    "github-api": {}
+    "github-api": {},
+    "collection-hooks": {}
   }
 }

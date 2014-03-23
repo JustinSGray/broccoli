@@ -39,8 +39,18 @@ Router.map( function() {
   });
 
   this.route('project', {
-    path:'/projects/:_id', 
-    template: 'project'
+    path:'/projects/:urlName', 
+    template: 'project', 
+    waitOn: function(){
+      Meteor.subscribe('userProjects');
+    }, 
+    before: function(){
+      var proj = Projects.findOne({urlName:this.params.urlName});
+      Session.set('project', proj);
+    },
+    unload: function(){
+      Sesion.set('project', null);
+    }
   });
 
 });

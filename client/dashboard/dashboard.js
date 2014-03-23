@@ -1,6 +1,6 @@
 Template.dashboard.projects = function(){
   return _.map(Projects.find().fetch(), function(proj) {
-    proj.url = Router.routes['project'].path({_id: proj._id});
+    proj.url = Router.routes['project'].path({urlName: proj.urlName});
     return proj;
   });
 }
