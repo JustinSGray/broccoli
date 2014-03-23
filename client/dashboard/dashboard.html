@@ -21,7 +21,7 @@
       {{#if projects}}
         <ul class="list-unstyled" id="project-list">
           {{#each projects}}
-              <li>{{this.name}}</li>
+              <li><a href="{{this.url}}">{{this.name}}</a></li>
           {{/each}}
         </ul>
       {{/if}}

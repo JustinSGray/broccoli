@@ -38,4 +38,9 @@ Router.map( function() {
     }
   });
 
+  this.route('project', {
+    path:'/projects/:_id', 
+    template: 'project'
+  });
+
 });

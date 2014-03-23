@@ -1,5 +1,8 @@
 Template.dashboard.projects = function(){
-  return Projects.find();
+  return _.map(Projects.find().fetch(), function(proj) {
+    proj.url = Router.routes['project'].path({_id: proj._id});
+    return proj;
+  });
 }
 
 // Form Validation

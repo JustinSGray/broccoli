@@ -15,28 +15,6 @@ function setup(client, cb) {
 
 suite('Project functionality', function() {
 
-  test('Project name availability', function(done, server, client) {
-
-    setup(client);
-
-    client.once('userCreated', function() {
-      var isAvail = client.eval(function(){
-        emit('goodName', Regulate.Rules.projectNameAvail('test'));
-
-        function cb() {
-          emit('badName', Regulate.Rules.projectNameAvail('test'));
-        }
-        Projects.insert({name:'test', userId:Meteor.userId()}, cb);
-
-      }).once('goodName', function(isAvail){
-        assert.equal(isAvail, true);
-      }).once('badName', function(isAvail){
-        assert.equal(isAvail, false);
-        done();
-      });
-    });
-  });
-
   test('Error msg for no name', function(done, server, client) {
 
     setup(client);
