@@ -49,7 +49,7 @@ Router.map( function() {
       Session.set('project', proj);
     },
     unload: function(){
-      Sesion.set('project', null);
+      Session.set('project', null);
     }
   });
 

@@ -48,6 +48,43 @@ suite('Project collection behavior', function() {
 
     run_test(client, test);
   });
+
+
+  test('read and write permissions', function(done, server, client){
+
+    var test = function() {
+      client.eval(function(){
+        Accounts.createUser({username:'other-person', password: '123456'});
+
+        var pId;
+        var cb = function(){
+          pId = Projects.findOne()._id;
+          emit('ready');
+        }
+        Projects.insert({name:"some project"}, cb); 
+
+      }).once('ready', function(){
+        client.eval(function(){
+          var pId = Projects.findOne()._id; // get the pId from the other users project
+          var cb1 = function(error) {
+            emit('updateDenied', error);
+          }
+          var loggedIn = function(){
+            // illegal update
+            Projects.update({_id:pId}, {$set:{name:"foobar"}}, cb1);
+          }
+          Meteor.loginWithPassword('test', '123456', loggedIn)
+        }).once('updateDenied', function(error){
+          assert.equal(error.error, 403);
+          assert.equal(error.reason, 'Access denied');
+          done();
+        });
+      });
+
+    }
+    
+    run_test(client, test);
+  });
 });
 
 suite('Project creation behavior', function(){
