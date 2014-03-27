@@ -66,17 +66,25 @@ suite('Project collection behavior', function() {
       }).once('ready', function(){
         client.eval(function(){
           var pId = Projects.findOne()._id; // get the pId from the other users project
-          var cb1 = function(error) {
+          var cb1 = function(error, _id) {
             emit('updateDenied', error);
+          }
+
+          var cb2 = function(error, _id) {
+            emit('updateAllowed', error, _id);
           }
           var loggedIn = function(){
             // illegal update
             Projects.update({_id:pId}, {$set:{name:"foobar"}}, cb1);
+            Projects.insert({name:"some project"}, cb2); 
           }
           Meteor.loginWithPassword('test', '123456', loggedIn)
         }).once('updateDenied', function(error){
           assert.equal(error.error, 403);
           assert.equal(error.reason, 'Access denied');
+        }).once('updateAllowed', function(error, _id) {
+          assert.equal(error, null);
+          assert.equal(typeof(_id), "string");
           done();
         });
       });
