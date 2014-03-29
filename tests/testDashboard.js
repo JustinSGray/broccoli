@@ -1,7 +1,3 @@
-
-var assert = require('assert');
-var _ = require('underscore');
-
 function setup(client, cb) {
   client.eval(function() {
 
@@ -16,10 +12,7 @@ function setup(client, cb) {
 suite('Project functionality', function() {
 
   test('Error msg for no name', function(done, server, client) {
-
-    setup(client);
-
-    client.once('userCreated', function(){ 
+    var test = function(){
       client.eval(function(){
         waitForDOM('#new-project-form', function(){
 
@@ -54,12 +47,13 @@ suite('Project functionality', function() {
         assert.equal(helpText[0], 'You must give your project a name');
         done();
       });
-    });
+    }
+
+    run_test(client, test)
   });
 
   test('Valid name creates a project', function(done, server, client) {
 
-    setup(client);
 
     client.once('userCreated', function(){
       server.eval(function(){
@@ -112,6 +106,8 @@ suite('Project functionality', function() {
         done();
       });
     });
+
+    run_test(client);
 
   });
 });

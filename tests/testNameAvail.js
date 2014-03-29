@@ -1,5 +1,3 @@
-var assert = require('assert');
-
 suite('username availability checking', function() {
   test('server side: when name is available', function(done, server, client) {
     var avail = server.evalSync(function() {
