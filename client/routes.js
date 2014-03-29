@@ -18,7 +18,7 @@ Router.map( function() {
   this.route('logout', {
     path: "/logout",
     //template: "logout"
-    before: function(){
+    onBeforeAction: function(){
       Meteor.logout(function(err){
         if (err) {
           Meteor._debug(err);
@@ -44,11 +44,11 @@ Router.map( function() {
     waitOn: function(){
       Meteor.subscribe('userProjects');
     }, 
-    before: function(){
+    onBeforeAction: function(){
       var proj = Projects.findOne({urlName:this.params.urlName});
       Session.set('project', proj);
     },
-    unload: function(){
+    onStop: function(){
       Session.set('project', null);
     }
   });

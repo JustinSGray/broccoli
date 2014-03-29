@@ -6,7 +6,6 @@
       "git": "https://github.com/JustinSGray/regulate-meteor.git"
     },
     "github-api": {},
-    "collection-hooks": {},
-    "collectionFS": {}
+    "collection-hooks": {}
   }
 }

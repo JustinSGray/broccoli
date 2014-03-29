@@ -1,3 +1,2007 @@
-__mygraph__json = 
-
-case_data = [{"__indent": 0, "parent_uuid": null, "timestamp": 1392673279.448486, "itername": "", "data": {"Constraint ( dis2.y2<24.0 )[0]": {"iotype": "out", "value": -23.799995088324966, "data_node": "Constraint ( dis2.y2<24.0 )[0]"}, "timestamp": 1392673279.448486, "driver.workflow.itername": {"iotype": "out", "value": "2", "data_node": "driver.workflow.itername"}, "dis1.x1[0]": {"iotype": "in", "value": 0.0, "data_node": "dis1.x1[0]"}, "Constraint ( 3.16<dis1.y1 )[0]": {"iotype": "out", "value": 3.2000019646941382, "data_node": "Constraint ( 3.16<dis1.y1 )[0]"}, "dis1.z2[0]": {"iotype": "in", "value": 0.0, "data_node": "dis1.z2[0]"}, "Objective": {"iotype": "out", "value": 0.7787247670543207, "data_node": "Objective"}, "dis1.z1[0]": {"iotype": "in", "value": 0.0, "data_node": "dis1.z1[0]"}}, "uuid": "3c99dc73-981c-11e3-b96a-843835586624"}, {"__indent": 1, "parent_uuid": "3c99dc73-981c-11e3-b96a-843835586624", "timestamp": 1392673279.447987, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.20000982347068957, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.447987, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -4.9117956561761655e-06, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "2-2.2", "data_node": "solver.workflow.itername"}}, "uuid": "3c99f607-981c-11e3-8882-843835586624"}, {"__indent": 0, "parent_uuid": null, "timestamp": 1392673279.461048, "itername": "", "data": {"Constraint ( dis2.y2<24.0 )[0]": {"iotype": "out", "value": -19.434755038409506, "data_node": "Constraint ( dis2.y2<24.0 )[0]"}, "timestamp": 1392673279.461048, "driver.workflow.itername": {"iotype": "out", "value": "3", "data_node": "driver.workflow.itername"}, "dis1.x1[0]": {"iotype": "in", "value": 3.0409092958446662, "data_node": "dis1.x1[0]"}, "Constraint ( 3.16<dis1.y1 )[0]": {"iotype": "out", "value": -1.2636434026210193, "data_node": "Constraint ( 3.16<dis1.y1 )[0]"}, "dis1.z2[0]": {"iotype": "in", "value": 2.2514541683919327, "data_node": "dis1.z2[0]"}, "Objective": {"iotype": "out", "value": 15.93263424606595, "data_node": "Objective"}, "dis1.z1[0]": {"iotype": "in", "value": 0.21054487257467747, "data_node": "dis1.z1[0]"}}, "uuid": "3c9b61a1-981c-11e3-9df8-843835586624"}, {"__indent": 1, "parent_uuid": "3c9b61a1-981c-11e3-9df8-843835586624", "timestamp": 1392673279.458085, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 4.7634530689476051, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.458085, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -0.20765317932929861, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "3-2.2", "data_node": "solver.workflow.itername"}}, "uuid": "3c9b80f5-981c-11e3-bf54-843835586624"}, {"__indent": 1, "parent_uuid": "3c9b61a1-981c-11e3-9df8-843835586624", "timestamp": 1392673279.458692, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 4.5557998896183065, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.458692, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 0.0098941457998336091, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "3-2.3", "data_node": "solver.workflow.itername"}}, "uuid": "3c9b98bd-981c-11e3-ae75-843835586624"}, {"__indent": 1, "parent_uuid": "3c9b61a1-981c-11e3-9df8-843835586624", "timestamp": 1392673279.459291, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 4.5656940354181401, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.459291, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -0.00047037484466194712, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "3-2.4", "data_node": "solver.workflow.itername"}}, "uuid": "3c9bb04c-981c-11e3-a18d-843835586624"}, {"__indent": 1, "parent_uuid": "3c9b61a1-981c-11e3-9df8-843835586624", "timestamp": 1392673279.45989, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 4.5652236605734782, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.45989, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 2.2364341852210146e-05, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "3-2.5", "data_node": "solver.workflow.itername"}}, "uuid": "3c9bc7a6-981c-11e3-8f92-843835586624"}, {"__indent": 1, "parent_uuid": "3c9b61a1-981c-11e3-9df8-843835586624", "timestamp": 1392673279.460539, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 4.5652460249153304, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.460539, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -1.0633248344049662e-06, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "3-2.6", "data_node": "solver.workflow.itername"}}, "uuid": "3c9be0cf-981c-11e3-a53c-843835586624"}, {"__indent": 0, "parent_uuid": null, "timestamp": 1392673279.46566, "itername": "", "data": {"Constraint ( dis2.y2<24.0 )[0]": {"iotype": "out", "value": -21.752626036675402, "data_node": "Constraint ( dis2.y2<24.0 )[0]"}, "timestamp": 1392673279.46566, "driver.workflow.itername": {"iotype": "out", "value": "4", "data_node": "driver.workflow.itername"}, "dis1.x1[0]": {"iotype": "in", "value": 1.195243976350943, "data_node": "dis1.x1[0]"}, "Constraint ( 3.16<dis1.y1 )[0]": {"iotype": "out", "value": 1.5224358924507799, "data_node": "Constraint ( 3.16<dis1.y1 )[0]"}, "dis1.z2[0]": {"iotype": "in", "value": 0.88494485398756229, "data_node": "dis1.z2[0]"}, "Objective": {"iotype": "out", "value": 4.0567934950695888, "data_node": "Objective"}, "dis1.z1[0]": {"iotype": "in", "value": 0.082755671482979618, "data_node": "dis1.z1[0]"}}, "uuid": "3c9c1199-981c-11e3-a1f6-843835586624"}, {"__indent": 1, "parent_uuid": "3c9c1199-981c-11e3-a1f6-843835586624", "timestamp": 1392673279.462497, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 2.0512078519423285, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.462497, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 0.21140416128042228, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "4-2.2", "data_node": "solver.workflow.itername"}}, "uuid": "3c9c2d7d-981c-11e3-b935-843835586624"}, {"__indent": 1, "parent_uuid": "3c9c1199-981c-11e3-a1f6-843835586624", "timestamp": 1392673279.463103, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 2.2626120132227507, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.463103, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -0.016429994395127157, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "4-2.3", "data_node": "solver.workflow.itername"}}, "uuid": "3c9c44f8-981c-11e3-af2c-843835586624"}, {"__indent": 1, "parent_uuid": "3c9c1199-981c-11e3-a1f6-843835586624", "timestamp": 1392673279.46375, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 2.2461820188276236, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.46375, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 0.0012844726443508314, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "4-2.4", "data_node": "solver.workflow.itername"}}, "uuid": "3c9c5d6b-981c-11e3-be39-843835586624"}, {"__indent": 1, "parent_uuid": "3c9c1199-981c-11e3-a1f6-843835586624", "timestamp": 1392673279.464397, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 2.2474664914719744, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.464397, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -0.00010037171255383726, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "4-2.5", "data_node": "solver.workflow.itername"}}, "uuid": "3c9c769e-981c-11e3-b546-843835586624"}, {"__indent": 1, "parent_uuid": "3c9c1199-981c-11e3-a1f6-843835586624", "timestamp": 1392673279.465047, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 2.2473661197594206, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.465047, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 7.8435651778008264e-06, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "4-2.6", "data_node": "solver.workflow.itername"}}, "uuid": "3c9c8fd9-981c-11e3-94a9-843835586624"}, {"__indent": 0, "parent_uuid": null, "timestamp": 1392673279.474384, "itername": "", "data": {"Constraint ( dis2.y2<24.0 )[0]": {"iotype": "out", "value": -19.485220502852741, "data_node": "Constraint ( dis2.y2<24.0 )[0]"}, "timestamp": 1392673279.474384, "driver.workflow.itername": {"iotype": "out", "value": "5", "data_node": "driver.workflow.itername"}, "dis1.x1[0]": {"iotype": "in", "value": 1.3807328314860456, "data_node": "dis1.x1[0]"}, "Constraint ( 3.16<dis1.y1 )[0]": {"iotype": "out", "value": -0.021112019070039789, "data_node": "Constraint ( 3.16<dis1.y1 )[0]"}, "dis1.z2[0]": {"iotype": "in", "value": 2.7025116158839033, "data_node": "dis1.z2[0]"}, "Objective": {"iotype": "out", "value": 7.800992805386465, "data_node": "Objective"}, "dis1.z1[0]": {"iotype": "in", "value": 0.028700663839230561, "data_node": "dis1.z1[0]"}}, "uuid": "3c9d6b26-981c-11e3-9c33-843835586624"}, {"__indent": 1, "parent_uuid": "3c9d6b26-981c-11e3-9c33-843835586624", "timestamp": 1392673279.471427, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 4.6376736487319263, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.471427, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -0.12979779766829402, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "5-2.2", "data_node": "solver.workflow.itername"}}, "uuid": "3c9d8a00-981c-11e3-bd2c-843835586624"}, {"__indent": 1, "parent_uuid": "3c9d6b26-981c-11e3-9c33-843835586624", "timestamp": 1392673279.472039, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 4.5078758510636323, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.472039, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 0.0072907456928819059, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "5-2.3", "data_node": "solver.workflow.itername"}}, "uuid": "3c9da1cc-981c-11e3-a18a-843835586624"}, {"__indent": 1, "parent_uuid": "3c9d6b26-981c-11e3-9c33-843835586624", "timestamp": 1392673279.472647, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 4.5151665967565142, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.472647, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -0.00040873137444918939, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "5-2.4", "data_node": "solver.workflow.itername"}}, "uuid": "3c9db9bd-981c-11e3-abde-843835586624"}, {"__indent": 1, "parent_uuid": "3c9d6b26-981c-11e3-9c33-843835586624", "timestamp": 1392673279.473276, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 4.514757865382065, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.473276, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 2.2916641540859928e-05, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "5-2.5", "data_node": "solver.workflow.itername"}}, "uuid": "3c9dd16b-981c-11e3-87ad-843835586624"}, {"__indent": 1, "parent_uuid": "3c9d6b26-981c-11e3-9c33-843835586624", "timestamp": 1392673279.473878, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 4.5147807820236059, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.473878, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -1.2848763457640189e-06, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "5-2.6", "data_node": "solver.workflow.itername"}}, "uuid": "3c9de9fd-981c-11e3-9a90-843835586624"}, {"__indent": 0, "parent_uuid": null, "timestamp": 1392673279.482594, "itername": "", "data": {"Constraint ( dis2.y2<24.0 )[0]": {"iotype": "out", "value": -18.906699071251207, "data_node": "Constraint ( dis2.y2<24.0 )[0]"}, "timestamp": 1392673279.482594, "driver.workflow.itername": {"iotype": "out", "value": "6", "data_node": "driver.workflow.itername"}, "dis1.x1[0]": {"iotype": "in", "value": 0.78496582868114595, "data_node": "dis1.x1[0]"}, "Constraint ( 3.16<dis1.y1 )[0]": {"iotype": "out", "value": -0.012604648695927256, "data_node": "Constraint ( 3.16<dis1.y1 )[0]"}, "dis1.z2[0]": {"iotype": "in", "value": 3.3987867226524657, "data_node": "dis1.z2[0]"}, "Objective": {"iotype": "out", "value": 7.1937004497601684, "data_node": "Objective"}, "dis1.z1[0]": {"iotype": "in", "value": -0.086666483417211768, "data_node": "dis1.z1[0]"}}, "uuid": "3c9ebfba-981c-11e3-8286-843835586624"}, {"__indent": 1, "parent_uuid": "3c9ebfba-981c-11e3-8286-843835586624", "timestamp": 1392673279.480146, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 5.1254893341182557, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.480146, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -0.033996799982952908, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "6-2.2", "data_node": "solver.workflow.itername"}}, "uuid": "3c9ede99-981c-11e3-a63e-843835586624"}, {"__indent": 1, "parent_uuid": "3c9ebfba-981c-11e3-8286-843835586624", "timestamp": 1392673279.480856, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 5.0914925341353028, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.480856, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 0.0019095816861520731, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "6-2.3", "data_node": "solver.workflow.itername"}}, "uuid": "3c9ef675-981c-11e3-8858-843835586624"}, {"__indent": 1, "parent_uuid": "3c9ebfba-981c-11e3-8286-843835586624", "timestamp": 1392673279.48146, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 5.0934021158214549, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.48146, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -0.00010720589350743381, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "6-2.4", "data_node": "solver.workflow.itername"}}, "uuid": "3c9f1214-981c-11e3-89fd-843835586624"}, {"__indent": 1, "parent_uuid": "3c9ebfba-981c-11e3-8286-843835586624", "timestamp": 1392673279.482084, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 5.0932949099279474, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.482084, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 6.0188208461653403e-06, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "6-2.5", "data_node": "solver.workflow.itername"}}, "uuid": "3c9f298c-981c-11e3-a7bb-843835586624"}, {"__indent": 0, "parent_uuid": null, "timestamp": 1392673279.490674, "itername": "", "data": {"Constraint ( dis2.y2<24.0 )[0]": {"iotype": "out", "value": -19.130652863251363, "data_node": "Constraint ( dis2.y2<24.0 )[0]"}, "timestamp": 1392673279.490674, "driver.workflow.itername": {"iotype": "out", "value": "7", "data_node": "driver.workflow.itername"}, "dis1.x1[0]": {"iotype": "in", "value": 0.45570812481117395, "data_node": "dis1.x1[0]"}, "Constraint ( 3.16<dis1.y1 )[0]": {"iotype": "out", "value": -0.19780891279901835, "data_node": "Constraint ( 3.16<dis1.y1 )[0]"}, "dis1.z2[0]": {"iotype": "in", "value": 3.5804930886547162, "data_node": "dis1.z2[0]"}, "Objective": {"iotype": "out", "value": 7.1536502730544242, "data_node": "Objective"}, "dis1.z1[0]": {"iotype": "in", "value": -0.54357846438751178, "data_node": "dis1.z1[0]"}}, "uuid": "3c9fff30-981c-11e3-a890-843835586624"}, {"__indent": 1, "parent_uuid": "3c9fff30-981c-11e3-a890-843835586624", "timestamp": 1392673279.488319, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 4.8570848851016644, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.488319, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 0.012931423031289135, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "7-2.2", "data_node": "solver.workflow.itername"}}, "uuid": "3ca01df8-981c-11e3-be0f-843835586624"}, {"__indent": 1, "parent_uuid": "3c9fff30-981c-11e3-a890-843835586624", "timestamp": 1392673279.488932, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 4.8700163081329535, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.488932, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -0.00070557527318193536, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "7-2.3", "data_node": "solver.workflow.itername"}}, "uuid": "3ca035ae-981c-11e3-9abe-843835586624"}, {"__indent": 1, "parent_uuid": "3c9fff30-981c-11e3-a890-843835586624", "timestamp": 1392673279.489538, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 4.8693107328597716, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.489538, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 3.8505204012828642e-05, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "7-2.4", "data_node": "solver.workflow.itername"}}, "uuid": "3ca04d82-981c-11e3-87f7-843835586624"}, {"__indent": 1, "parent_uuid": "3c9fff30-981c-11e3-a890-843835586624", "timestamp": 1392673279.490167, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 4.8693492380637844, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.490167, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -2.1013151467741409e-06, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "7-2.5", "data_node": "solver.workflow.itername"}}, "uuid": "3ca0652e-981c-11e3-9474-843835586624"}, {"__indent": 0, "parent_uuid": null, "timestamp": 1392673279.499409, "itername": "", "data": {"Constraint ( dis2.y2<24.0 )[0]": {"iotype": "out", "value": -22.430673149555655, "data_node": "Constraint ( dis2.y2<24.0 )[0]"}, "timestamp": 1392673279.499409, "driver.workflow.itername": {"iotype": "out", "value": "8", "data_node": "driver.workflow.itername"}, "dis1.x1[0]": {"iotype": "in", "value": -3.0270230766404893e-13, "data_node": "dis1.x1[0]"}, "Constraint ( 3.16<dis1.y1 )[0]": {"iotype": "out", "value": -2.3941607832980285, "data_node": "Constraint ( 3.16<dis1.y1 )[0]"}, "dis1.z2[0]": {"iotype": "in", "value": 1.3404178505493012, "data_node": "dis1.z2[0]"}, "Objective": {"iotype": "out", "value": 7.1027639088727783, "data_node": "Objective"}, "dis1.z1[0]": {"iotype": "in", "value": -2.1278177096107562, "data_node": "dis1.z1[0]"}}, "uuid": "3ca13c2e-981c-11e3-ac52-843835586624"}, {"__indent": 1, "parent_uuid": "3ca13c2e-981c-11e3-ac52-843835586624", "timestamp": 1392673279.496434, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 1.4248741312637501, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.496434, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 0.15057412786381885, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "8-2.2", "data_node": "solver.workflow.itername"}}, "uuid": "3ca15af5-981c-11e3-acba-843835586624"}, {"__indent": 1, "parent_uuid": "3ca13c2e-981c-11e3-ac52-843835586624", "timestamp": 1392673279.497035, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 1.5754482591275689, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.497035, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -0.0063811856697815195, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "8-2.3", "data_node": "solver.workflow.itername"}}, "uuid": "3ca172a1-981c-11e3-bb47-843835586624"}, {"__indent": 1, "parent_uuid": "3ca13c2e-981c-11e3-ac52-843835586624", "timestamp": 1392673279.497638, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 1.5690670734577874, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.497638, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 0.00027077906229999726, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "8-2.4", "data_node": "solver.workflow.itername"}}, "uuid": "3ca18a07-981c-11e3-8979-843835586624"}, {"__indent": 1, "parent_uuid": "3ca13c2e-981c-11e3-ac52-843835586624", "timestamp": 1392673279.498241, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 1.5693378525200874, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.498241, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -1.1489599416325547e-05, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "8-2.5", "data_node": "solver.workflow.itername"}}, "uuid": "3ca1a18c-981c-11e3-8565-843835586624"}, {"__indent": 1, "parent_uuid": "3ca13c2e-981c-11e3-ac52-843835586624", "timestamp": 1392673279.498868, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 1.5693263629206711, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.498868, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 4.8752367254323303e-07, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "8-2.6", "data_node": "solver.workflow.itername"}}, "uuid": "3ca1b92e-981c-11e3-b51c-843835586624"}, {"__indent": 0, "parent_uuid": null, "timestamp": 1392673279.503791, "itername": "", "data": {"Constraint ( dis2.y2<24.0 )[0]": {"iotype": "out", "value": -20.941817197113107, "data_node": "Constraint ( dis2.y2<24.0 )[0]"}, "timestamp": 1392673279.503791, "driver.workflow.itername": {"iotype": "out", "value": "9", "data_node": "driver.workflow.itername"}, "dis1.x1[0]": {"iotype": "in", "value": 0.22367212563527963, "data_node": "dis1.x1[0]"}, "Constraint ( 3.16<dis1.y1 )[0]": {"iotype": "out", "value": -0.71507234026201028, "data_node": "Constraint ( 3.16<dis1.y1 )[0]"}, "dis1.z2[0]": {"iotype": "in", "value": 2.4398987744366014, "data_node": "dis1.z2[0]"}, "Objective": {"iotype": "out", "value": 6.4119733113525124, "data_node": "Objective"}, "dis1.z1[0]": {"iotype": "in", "value": -1.3502363144118317, "data_node": "dis1.z1[0]"}}, "uuid": "3ca1ebcf-981c-11e3-8a84-843835586624"}, {"__indent": 1, "parent_uuid": "3ca1ebcf-981c-11e3-8a84-843835586624", "timestamp": 1392673279.500875, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 3.1324164178582121, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.500875, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -0.078008243687032852, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "9-2.2", "data_node": "solver.workflow.itername"}}, "uuid": "3ca2087a-981c-11e3-bc2b-843835586624"}, {"__indent": 1, "parent_uuid": "3ca1ebcf-981c-11e3-8a84-843835586624", "timestamp": 1392673279.501479, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 3.0544081741711793, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.501479, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 0.0039663953287396581, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "9-2.3", "data_node": "solver.workflow.itername"}}, "uuid": "3ca22011-981c-11e3-8e79-843835586624"}, {"__indent": 1, "parent_uuid": "3ca1ebcf-981c-11e3-8a84-843835586624", "timestamp": 1392673279.502085, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 3.0583745694999189, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.502085, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -0.00020148188678259515, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "9-2.4", "data_node": "solver.workflow.itername"}}, "uuid": "3ca237ab-981c-11e3-9bc1-843835586624"}, {"__indent": 1, "parent_uuid": "3ca1ebcf-981c-11e3-8a84-843835586624", "timestamp": 1392673279.50269, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 3.0581730876131363, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.50269, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 1.0235218451892791e-05, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "9-2.5", "data_node": "solver.workflow.itername"}}, "uuid": "3ca24f61-981c-11e3-93c3-843835586624"}, {"__indent": 1, "parent_uuid": "3ca1ebcf-981c-11e3-8a84-843835586624", "timestamp": 1392673279.503286, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 3.0581833228315882, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.503286, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -5.199446957426801e-07, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "9-2.6", "data_node": "solver.workflow.itername"}}, "uuid": "3ca266f8-981c-11e3-b4da-843835586624"}, {"__indent": 0, "parent_uuid": null, "timestamp": 1392673279.515117, "itername": "", "data": {"Constraint ( dis2.y2<24.0 )[0]": {"iotype": "out", "value": -23.963365115241178, "data_node": "Constraint ( dis2.y2<24.0 )[0]"}, "timestamp": 1392673279.515117, "driver.workflow.itername": {"iotype": "out", "value": "10", "data_node": "driver.workflow.itername"}, "dis1.x1[0]": {"iotype": "in", "value": 0.14003968939319023, "data_node": "dis1.x1[0]"}, "Constraint ( 3.16<dis1.y1 )[0]": {"iotype": "out", "value": -0.18747523737263805, "data_node": "Constraint ( 3.16<dis1.y1 )[0]"}, "dis1.z2[0]": {"iotype": "in", "value": 3.4483527144857362e-12, "data_node": "dis1.z2[0]"}, "Objective": {"iotype": "out", "value": 4.3311144044162946, "data_node": "Objective"}, "dis1.z1[0]": {"iotype": "in", "value": -1.7929757944254852, "data_node": "dis1.z1[0]"}}, "uuid": "3ca33f23-981c-11e3-a385-843835586624"}, {"__indent": 1, "parent_uuid": "3ca33f23-981c-11e3-a385-843835586624", "timestamp": 1392673279.509705, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": -0.13672544371233197, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.509705, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 0.18281108859426909, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "10-2.2", "data_node": "solver.workflow.itername"}}, "uuid": "3ca35f4a-981c-11e3-99d5-843835586624"}, {"__indent": 1, "parent_uuid": "3ca33f23-981c-11e3-a385-843835586624", "timestamp": 1392673279.510546, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.046085644881937116, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.510546, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -0.0099674669187521658, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "10-2.3", "data_node": "solver.workflow.itername"}}, "uuid": "3ca37a51-981c-11e3-9b97-843835586624"}, {"__indent": 1, "parent_uuid": "3ca33f23-981c-11e3-a385-843835586624", "timestamp": 1392673279.511693, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.03611817796318495, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.511693, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 0.00054485896912548348, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "10-2.4", "data_node": "solver.workflow.itername"}}, "uuid": "3ca3a266-981c-11e3-b927-843835586624"}, {"__indent": 1, "parent_uuid": "3ca33f23-981c-11e3-a385-843835586624", "timestamp": 1392673279.513117, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.036663036932310433, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.513117, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -2.9779833810916756e-05, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "10-2.5", "data_node": "solver.workflow.itername"}}, "uuid": "3ca3d91e-981c-11e3-9b66-843835586624"}, {"__indent": 1, "parent_uuid": "3ca33f23-981c-11e3-a385-843835586624", "timestamp": 1392673279.51425, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.036633257098499517, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.51425, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 1.6276603209686158e-06, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "10-2.6", "data_node": "solver.workflow.itername"}}, "uuid": "3ca406a3-981c-11e3-84db-843835586624"}, {"__indent": 0, "parent_uuid": null, "timestamp": 1392673279.525364, "itername": "", "data": {"Constraint ( dis2.y2<24.0 )[0]": {"iotype": "out", "value": -23.560657365417896, "data_node": "Constraint ( dis2.y2<24.0 )[0]"}, "timestamp": 1392673279.525364, "driver.workflow.itername": {"iotype": "out", "value": "11", "data_node": "driver.workflow.itername"}, "dis1.x1[0]": {"iotype": "in", "value": 0.16129625048882379, "data_node": "dis1.x1[0]"}, "Constraint ( 3.16<dis1.y1 )[0]": {"iotype": "out", "value": -0.015248029753521575, "data_node": "Constraint ( 3.16<dis1.y1 )[0]"}, "dis1.z2[0]": {"iotype": "in", "value": 0.32407634041894551, "data_node": "dis1.z2[0]"}, "Objective": {"iotype": "out", "value": 4.1698007781324469, "data_node": "Objective"}, "dis1.z1[0]": {"iotype": "in", "value": -1.6666562714253486, "data_node": "dis1.z1[0]"}}, "uuid": "3ca5217d-981c-11e3-9eef-843835586624"}, {"__indent": 1, "parent_uuid": "3ca5217d-981c-11e3-9eef-843835586624", "timestamp": 1392673279.522398, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.46180059054926748, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.522398, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -0.023718959135860196, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "11-2.2", "data_node": "solver.workflow.itername"}}, "uuid": "3ca54940-981c-11e3-afbf-843835586624"}, {"__indent": 1, "parent_uuid": "3ca5217d-981c-11e3-9eef-843835586624", "timestamp": 1392673279.52326, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.43808163141340728, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.52326, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 0.0013315328828993334, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "11-2.3", "data_node": "solver.workflow.itername"}}, "uuid": "3ca56e47-981c-11e3-9987-843835586624"}, {"__indent": 1, "parent_uuid": "3ca5217d-981c-11e3-9eef-843835586624", "timestamp": 1392673279.523988, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.43941316429630661, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.523988, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -7.4723117846620113e-05, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "11-2.4", "data_node": "solver.workflow.itername"}}, "uuid": "3ca58c97-981c-11e3-aa6e-843835586624"}, {"__indent": 1, "parent_uuid": "3ca5217d-981c-11e3-9eef-843835586624", "timestamp": 1392673279.524679, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.43933844117845999, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.524679, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 4.193403642549498e-06, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "11-2.5", "data_node": "solver.workflow.itername"}}, "uuid": "3ca5a851-981c-11e3-aff4-843835586624"}, {"__indent": 0, "parent_uuid": null, "timestamp": 1392673279.534842, "itername": "", "data": {"Constraint ( dis2.y2<24.0 )[0]": {"iotype": "out", "value": -23.781682380915921, "data_node": "Constraint ( dis2.y2<24.0 )[0]"}, "timestamp": 1392673279.534842, "driver.workflow.itername": {"iotype": "out", "value": "12", "data_node": "driver.workflow.itername"}, "dis1.x1[0]": {"iotype": "in", "value": 0.14699992052203373, "data_node": "dis1.x1[0]"}, "Constraint ( 3.16<dis1.y1 )[0]": {"iotype": "out", "value": -0.0014899607766389877, "data_node": "Constraint ( 3.16<dis1.y1 )[0]"}, "dis1.z2[0]": {"iotype": "in", "value": 0.14659021365598965, "data_node": "dis1.z2[0]"}, "Objective": {"iotype": "out", "value": 4.1335592277029551, "data_node": "Objective"}, "dis1.z1[0]": {"iotype": "in", "value": -1.7063305128570929, "data_node": "dis1.z1[0]"}}, "uuid": "3ca69cf8-981c-11e3-bc16-843835586624"}, {"__indent": 1, "parent_uuid": "3ca69cf8-981c-11e3-bc16-843835586624", "timestamp": 1392673279.531746, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.2058435320143622, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.531746, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 0.013175637313739719, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "12-2.2", "data_node": "solver.workflow.itername"}}, "uuid": "3ca6be07-981c-11e3-a203-843835586624"}, {"__indent": 1, "parent_uuid": "3ca69cf8-981c-11e3-bc16-843835586624", "timestamp": 1392673279.532535, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.21901916932810192, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.532535, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -0.00074087486389906587, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "12-2.3", "data_node": "solver.workflow.itername"}}, "uuid": "3ca6d651-981c-11e3-aaa8-843835586624"}, {"__indent": 1, "parent_uuid": "3ca69cf8-981c-11e3-bc16-843835586624", "timestamp": 1392673279.533365, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.21827829446420285, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.533365, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 4.1668078466283731e-05, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "12-2.4", "data_node": "solver.workflow.itername"}}, "uuid": "3ca6f7ae-981c-11e3-84a0-843835586624"}, {"__indent": 1, "parent_uuid": "3ca69cf8-981c-11e3-bc16-843835586624", "timestamp": 1392673279.534161, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.21831996254266914, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.534161, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -2.34345858918239e-06, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "12-2.5", "data_node": "solver.workflow.itername"}}, "uuid": "3ca71819-981c-11e3-9ad5-843835586624"}, {"__indent": 0, "parent_uuid": null, "timestamp": 1392673279.543196, "itername": "", "data": {"Constraint ( dis2.y2<24.0 )[0]": {"iotype": "out", "value": -23.80676637434313, "data_node": "Constraint ( dis2.y2<24.0 )[0]"}, "timestamp": 1392673279.543196, "driver.workflow.itername": {"iotype": "out", "value": "13", "data_node": "driver.workflow.itername"}, "dis1.x1[0]": {"iotype": "in", "value": 0.13155614099628235, "data_node": "dis1.x1[0]"}, "Constraint ( 3.16<dis1.y1 )[0]": {"iotype": "out", "value": -5.6286649175785186e-05, "data_node": "Constraint ( 3.16<dis1.y1 )[0]"}, "dis1.z2[0]": {"iotype": "in", "value": 0.12952719720570532, "data_node": "dis1.z2[0]"}, "Objective": {"iotype": "out", "value": 4.1311798785837901, "data_node": "Objective"}, "dis1.z1[0]": {"iotype": "in", "value": -1.7139482867984477, "data_node": "dis1.z1[0]"}}, "uuid": "3ca81a00-981c-11e3-9d3f-843835586624"}, {"__indent": 1, "parent_uuid": "3ca81a00-981c-11e3-9d3f-843835586624", "timestamp": 1392673279.541456, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.19182159526560422, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.541456, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 0.0014911953858818272, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "13-2.2", "data_node": "solver.workflow.itername"}}, "uuid": "3ca83966-981c-11e3-a2ab-843835586624"}, {"__indent": 1, "parent_uuid": "3ca81a00-981c-11e3-9d3f-843835586624", "timestamp": 1392673279.542068, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.19331279065148604, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.542068, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -8.3883790757521837e-05, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "13-2.3", "data_node": "solver.workflow.itername"}}, "uuid": "3ca8516b-981c-11e3-8e86-843835586624"}, {"__indent": 1, "parent_uuid": "3ca81a00-981c-11e3-9d3f-843835586624", "timestamp": 1392673279.542681, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.19322890686072852, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.542681, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 4.7187961402794798e-06, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "13-2.4", "data_node": "solver.workflow.itername"}}, "uuid": "3ca8695c-981c-11e3-a0dd-843835586624"}, {"__indent": 0, "parent_uuid": null, "timestamp": 1392673279.550421, "itername": "", "data": {"Constraint ( dis2.y2<24.0 )[0]": {"iotype": "out", "value": -23.806401460889681, "data_node": "Constraint ( dis2.y2<24.0 )[0]"}, "timestamp": 1392673279.550421, "driver.workflow.itername": {"iotype": "out", "value": "14", "data_node": "driver.workflow.itername"}, "dis1.x1[0]": {"iotype": "in", "value": 0.11620474368323978, "data_node": "dis1.x1[0]"}, "Constraint ( 3.16<dis1.y1 )[0]": {"iotype": "out", "value": -1.0190378917140919e-05, "data_node": "Constraint ( 3.16<dis1.y1 )[0]"}, "dis1.z2[0]": {"iotype": "in", "value": 0.13329034978181484, "data_node": "dis1.z2[0]"}, "Objective": {"iotype": "out", "value": 4.1307927197025407, "data_node": "Objective"}, "dis1.z1[0]": {"iotype": "in", "value": -1.7173335604003099, "data_node": "dis1.z1[0]"}}, "uuid": "3ca9418a-981c-11e3-819a-843835586624"}, {"__indent": 1, "parent_uuid": "3ca9418a-981c-11e3-819a-843835586624", "timestamp": 1392673279.549084, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.19361926290399931, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.549084, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -2.1959087289635804e-05, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "14-2.2", "data_node": "solver.workflow.itername"}}, "uuid": "3ca96168-981c-11e3-9ba1-843835586624"}, {"__indent": 1, "parent_uuid": "3ca9418a-981c-11e3-819a-843835586624", "timestamp": 1392673279.549768, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.19359730381670967, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.549768, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 1.2352936087367539e-06, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "14-2.3", "data_node": "solver.workflow.itername"}}, "uuid": "3ca97cae-981c-11e3-8682-843835586624"}, {"__indent": 0, "parent_uuid": null, "timestamp": 1392673279.558205, "itername": "", "data": {"Constraint ( dis2.y2<24.0 )[0]": {"iotype": "out", "value": -23.801785925449455, "data_node": "Constraint ( dis2.y2<24.0 )[0]"}, "timestamp": 1392673279.558205, "driver.workflow.itername": {"iotype": "out", "value": "15", "data_node": "driver.workflow.itername"}, "dis1.x1[0]": {"iotype": "in", "value": 0.11274294001416531, "data_node": "dis1.x1[0]"}, "Constraint ( 3.16<dis1.y1 )[0]": {"iotype": "out", "value": 3.9553487862775683e-07, "data_node": "Constraint ( 3.16<dis1.y1 )[0]"}, "dis1.z2[0]": {"iotype": "in", "value": 0.13785389345895452, "data_node": "dis1.z2[0]"}, "Objective": {"iotype": "out", "value": 4.1307587200739304, "data_node": "Objective"}, "dis1.z1[0]": {"iotype": "in", "value": -1.7172785911186461, "data_node": "dis1.z1[0]"}}, "uuid": "3caa5ef5-981c-11e3-8542-843835586624"}, {"__indent": 1, "parent_uuid": "3caa5ef5-981c-11e3-8542-843835586624", "timestamp": 1392673279.556312, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.19847381806729439, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.556312, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -0.00027430645943016252, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "15-2.2", "data_node": "solver.workflow.itername"}}, "uuid": "3caa7dd4-981c-11e3-ac6c-843835586624"}, {"__indent": 1, "parent_uuid": "3caa5ef5-981c-11e3-8542-843835586624", "timestamp": 1392673279.557035, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.19819951160786423, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.557035, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": 1.5431004338317678e-05, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "15-2.3", "data_node": "solver.workflow.itername"}}, "uuid": "3caa959c-981c-11e3-a360-843835586624"}, {"__indent": 1, "parent_uuid": "3caa5ef5-981c-11e3-8542-843835586624", "timestamp": 1392673279.557686, "itername": "", "data": {"dis1.y2[0]": {"iotype": "in", "value": 0.19821494261220254, "data_node": "dis1.y2[0]"}, "timestamp": 1392673279.557686, "Constraint ( dis2.y2=dis1.y2 )[0]": {"iotype": "out", "value": -8.6806165633390719e-07, "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"}, "solver.workflow.itername": {"iotype": "out", "value": "15-2.4", "data_node": "solver.workflow.itername"}}, "uuid": "3caab2d7-981c-11e3-bf52-843835586624"}]
+[
+  {
+    "__indent": 0,
+    "parent_uuid": null,
+    "timestamp": 1392673279.4485,
+    "itername": "",
+    "data": {
+      "Constraint ( dis2.y2<24.0 )[0]": {
+        "iotype": "out",
+        "value": -23.799995088325,
+        "data_node": "Constraint ( dis2.y2<24.0 )[0]"
+      },
+      "timestamp": 1392673279.4485,
+      "driver.workflow.itername": {
+        "iotype": "out",
+        "value": "2",
+        "data_node": "driver.workflow.itername"
+      },
+      "dis1.x1[0]": {
+        "iotype": "in",
+        "value": 0,
+        "data_node": "dis1.x1[0]"
+      },
+      "Constraint ( 3.16<dis1.y1 )[0]": {
+        "iotype": "out",
+        "value": 3.2000019646941,
+        "data_node": "Constraint ( 3.16<dis1.y1 )[0]"
+      },
+      "dis1.z2[0]": {
+        "iotype": "in",
+        "value": 0,
+        "data_node": "dis1.z2[0]"
+      },
+      "Objective": {
+        "iotype": "out",
+        "value": 0.77872476705432,
+        "data_node": "Objective"
+      },
+      "dis1.z1[0]": {
+        "iotype": "in",
+        "value": 0,
+        "data_node": "dis1.z1[0]"
+      }
+    },
+    "uuid": "3c99dc73-981c-11e3-b96a-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c99dc73-981c-11e3-b96a-843835586624",
+    "timestamp": 1392673279.448,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.20000982347069,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.448,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -4.9117956561762e-6,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "2-2.2",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c99f607-981c-11e3-8882-843835586624"
+  },
+  {
+    "__indent": 0,
+    "parent_uuid": null,
+    "timestamp": 1392673279.461,
+    "itername": "",
+    "data": {
+      "Constraint ( dis2.y2<24.0 )[0]": {
+        "iotype": "out",
+        "value": -19.43475503841,
+        "data_node": "Constraint ( dis2.y2<24.0 )[0]"
+      },
+      "timestamp": 1392673279.461,
+      "driver.workflow.itername": {
+        "iotype": "out",
+        "value": "3",
+        "data_node": "driver.workflow.itername"
+      },
+      "dis1.x1[0]": {
+        "iotype": "in",
+        "value": 3.0409092958447,
+        "data_node": "dis1.x1[0]"
+      },
+      "Constraint ( 3.16<dis1.y1 )[0]": {
+        "iotype": "out",
+        "value": -1.263643402621,
+        "data_node": "Constraint ( 3.16<dis1.y1 )[0]"
+      },
+      "dis1.z2[0]": {
+        "iotype": "in",
+        "value": 2.2514541683919,
+        "data_node": "dis1.z2[0]"
+      },
+      "Objective": {
+        "iotype": "out",
+        "value": 15.932634246066,
+        "data_node": "Objective"
+      },
+      "dis1.z1[0]": {
+        "iotype": "in",
+        "value": 0.21054487257468,
+        "data_node": "dis1.z1[0]"
+      }
+    },
+    "uuid": "3c9b61a1-981c-11e3-9df8-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9b61a1-981c-11e3-9df8-843835586624",
+    "timestamp": 1392673279.4581,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 4.7634530689476,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4581,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -0.2076531793293,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "3-2.2",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c9b80f5-981c-11e3-bf54-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9b61a1-981c-11e3-9df8-843835586624",
+    "timestamp": 1392673279.4587,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 4.5557998896183,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4587,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 0.0098941457998336,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "3-2.3",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c9b98bd-981c-11e3-ae75-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9b61a1-981c-11e3-9df8-843835586624",
+    "timestamp": 1392673279.4593,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 4.5656940354181,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4593,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -0.00047037484466195,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "3-2.4",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c9bb04c-981c-11e3-a18d-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9b61a1-981c-11e3-9df8-843835586624",
+    "timestamp": 1392673279.4599,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 4.5652236605735,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4599,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 2.236434185221e-5,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "3-2.5",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c9bc7a6-981c-11e3-8f92-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9b61a1-981c-11e3-9df8-843835586624",
+    "timestamp": 1392673279.4605,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 4.5652460249153,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4605,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -1.063324834405e-6,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "3-2.6",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c9be0cf-981c-11e3-a53c-843835586624"
+  },
+  {
+    "__indent": 0,
+    "parent_uuid": null,
+    "timestamp": 1392673279.4657,
+    "itername": "",
+    "data": {
+      "Constraint ( dis2.y2<24.0 )[0]": {
+        "iotype": "out",
+        "value": -21.752626036675,
+        "data_node": "Constraint ( dis2.y2<24.0 )[0]"
+      },
+      "timestamp": 1392673279.4657,
+      "driver.workflow.itername": {
+        "iotype": "out",
+        "value": "4",
+        "data_node": "driver.workflow.itername"
+      },
+      "dis1.x1[0]": {
+        "iotype": "in",
+        "value": 1.1952439763509,
+        "data_node": "dis1.x1[0]"
+      },
+      "Constraint ( 3.16<dis1.y1 )[0]": {
+        "iotype": "out",
+        "value": 1.5224358924508,
+        "data_node": "Constraint ( 3.16<dis1.y1 )[0]"
+      },
+      "dis1.z2[0]": {
+        "iotype": "in",
+        "value": 0.88494485398756,
+        "data_node": "dis1.z2[0]"
+      },
+      "Objective": {
+        "iotype": "out",
+        "value": 4.0567934950696,
+        "data_node": "Objective"
+      },
+      "dis1.z1[0]": {
+        "iotype": "in",
+        "value": 0.08275567148298,
+        "data_node": "dis1.z1[0]"
+      }
+    },
+    "uuid": "3c9c1199-981c-11e3-a1f6-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9c1199-981c-11e3-a1f6-843835586624",
+    "timestamp": 1392673279.4625,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 2.0512078519423,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4625,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 0.21140416128042,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "4-2.2",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c9c2d7d-981c-11e3-b935-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9c1199-981c-11e3-a1f6-843835586624",
+    "timestamp": 1392673279.4631,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 2.2626120132228,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4631,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -0.016429994395127,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "4-2.3",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c9c44f8-981c-11e3-af2c-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9c1199-981c-11e3-a1f6-843835586624",
+    "timestamp": 1392673279.4637,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 2.2461820188276,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4637,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 0.0012844726443508,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "4-2.4",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c9c5d6b-981c-11e3-be39-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9c1199-981c-11e3-a1f6-843835586624",
+    "timestamp": 1392673279.4644,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 2.247466491472,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4644,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -0.00010037171255384,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "4-2.5",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c9c769e-981c-11e3-b546-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9c1199-981c-11e3-a1f6-843835586624",
+    "timestamp": 1392673279.465,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 2.2473661197594,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.465,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 7.8435651778008e-6,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "4-2.6",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c9c8fd9-981c-11e3-94a9-843835586624"
+  },
+  {
+    "__indent": 0,
+    "parent_uuid": null,
+    "timestamp": 1392673279.4744,
+    "itername": "",
+    "data": {
+      "Constraint ( dis2.y2<24.0 )[0]": {
+        "iotype": "out",
+        "value": -19.485220502853,
+        "data_node": "Constraint ( dis2.y2<24.0 )[0]"
+      },
+      "timestamp": 1392673279.4744,
+      "driver.workflow.itername": {
+        "iotype": "out",
+        "value": "5",
+        "data_node": "driver.workflow.itername"
+      },
+      "dis1.x1[0]": {
+        "iotype": "in",
+        "value": 1.380732831486,
+        "data_node": "dis1.x1[0]"
+      },
+      "Constraint ( 3.16<dis1.y1 )[0]": {
+        "iotype": "out",
+        "value": -0.02111201907004,
+        "data_node": "Constraint ( 3.16<dis1.y1 )[0]"
+      },
+      "dis1.z2[0]": {
+        "iotype": "in",
+        "value": 2.7025116158839,
+        "data_node": "dis1.z2[0]"
+      },
+      "Objective": {
+        "iotype": "out",
+        "value": 7.8009928053865,
+        "data_node": "Objective"
+      },
+      "dis1.z1[0]": {
+        "iotype": "in",
+        "value": 0.028700663839231,
+        "data_node": "dis1.z1[0]"
+      }
+    },
+    "uuid": "3c9d6b26-981c-11e3-9c33-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9d6b26-981c-11e3-9c33-843835586624",
+    "timestamp": 1392673279.4714,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 4.6376736487319,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4714,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -0.12979779766829,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "5-2.2",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c9d8a00-981c-11e3-bd2c-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9d6b26-981c-11e3-9c33-843835586624",
+    "timestamp": 1392673279.472,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 4.5078758510636,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.472,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 0.0072907456928819,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "5-2.3",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c9da1cc-981c-11e3-a18a-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9d6b26-981c-11e3-9c33-843835586624",
+    "timestamp": 1392673279.4726,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 4.5151665967565,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4726,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -0.00040873137444919,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "5-2.4",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c9db9bd-981c-11e3-abde-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9d6b26-981c-11e3-9c33-843835586624",
+    "timestamp": 1392673279.4733,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 4.5147578653821,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4733,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 2.291664154086e-5,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "5-2.5",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c9dd16b-981c-11e3-87ad-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9d6b26-981c-11e3-9c33-843835586624",
+    "timestamp": 1392673279.4739,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 4.5147807820236,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4739,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -1.284876345764e-6,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "5-2.6",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c9de9fd-981c-11e3-9a90-843835586624"
+  },
+  {
+    "__indent": 0,
+    "parent_uuid": null,
+    "timestamp": 1392673279.4826,
+    "itername": "",
+    "data": {
+      "Constraint ( dis2.y2<24.0 )[0]": {
+        "iotype": "out",
+        "value": -18.906699071251,
+        "data_node": "Constraint ( dis2.y2<24.0 )[0]"
+      },
+      "timestamp": 1392673279.4826,
+      "driver.workflow.itername": {
+        "iotype": "out",
+        "value": "6",
+        "data_node": "driver.workflow.itername"
+      },
+      "dis1.x1[0]": {
+        "iotype": "in",
+        "value": 0.78496582868115,
+        "data_node": "dis1.x1[0]"
+      },
+      "Constraint ( 3.16<dis1.y1 )[0]": {
+        "iotype": "out",
+        "value": -0.012604648695927,
+        "data_node": "Constraint ( 3.16<dis1.y1 )[0]"
+      },
+      "dis1.z2[0]": {
+        "iotype": "in",
+        "value": 3.3987867226525,
+        "data_node": "dis1.z2[0]"
+      },
+      "Objective": {
+        "iotype": "out",
+        "value": 7.1937004497602,
+        "data_node": "Objective"
+      },
+      "dis1.z1[0]": {
+        "iotype": "in",
+        "value": -0.086666483417212,
+        "data_node": "dis1.z1[0]"
+      }
+    },
+    "uuid": "3c9ebfba-981c-11e3-8286-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9ebfba-981c-11e3-8286-843835586624",
+    "timestamp": 1392673279.4801,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 5.1254893341183,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4801,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -0.033996799982953,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "6-2.2",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c9ede99-981c-11e3-a63e-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9ebfba-981c-11e3-8286-843835586624",
+    "timestamp": 1392673279.4809,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 5.0914925341353,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4809,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 0.0019095816861521,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "6-2.3",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c9ef675-981c-11e3-8858-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9ebfba-981c-11e3-8286-843835586624",
+    "timestamp": 1392673279.4815,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 5.0934021158215,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4815,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -0.00010720589350743,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "6-2.4",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c9f1214-981c-11e3-89fd-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9ebfba-981c-11e3-8286-843835586624",
+    "timestamp": 1392673279.4821,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 5.0932949099279,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4821,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 6.0188208461653e-6,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "6-2.5",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3c9f298c-981c-11e3-a7bb-843835586624"
+  },
+  {
+    "__indent": 0,
+    "parent_uuid": null,
+    "timestamp": 1392673279.4907,
+    "itername": "",
+    "data": {
+      "Constraint ( dis2.y2<24.0 )[0]": {
+        "iotype": "out",
+        "value": -19.130652863251,
+        "data_node": "Constraint ( dis2.y2<24.0 )[0]"
+      },
+      "timestamp": 1392673279.4907,
+      "driver.workflow.itername": {
+        "iotype": "out",
+        "value": "7",
+        "data_node": "driver.workflow.itername"
+      },
+      "dis1.x1[0]": {
+        "iotype": "in",
+        "value": 0.45570812481117,
+        "data_node": "dis1.x1[0]"
+      },
+      "Constraint ( 3.16<dis1.y1 )[0]": {
+        "iotype": "out",
+        "value": -0.19780891279902,
+        "data_node": "Constraint ( 3.16<dis1.y1 )[0]"
+      },
+      "dis1.z2[0]": {
+        "iotype": "in",
+        "value": 3.5804930886547,
+        "data_node": "dis1.z2[0]"
+      },
+      "Objective": {
+        "iotype": "out",
+        "value": 7.1536502730544,
+        "data_node": "Objective"
+      },
+      "dis1.z1[0]": {
+        "iotype": "in",
+        "value": -0.54357846438751,
+        "data_node": "dis1.z1[0]"
+      }
+    },
+    "uuid": "3c9fff30-981c-11e3-a890-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9fff30-981c-11e3-a890-843835586624",
+    "timestamp": 1392673279.4883,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 4.8570848851017,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4883,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 0.012931423031289,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "7-2.2",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca01df8-981c-11e3-be0f-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9fff30-981c-11e3-a890-843835586624",
+    "timestamp": 1392673279.4889,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 4.870016308133,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4889,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -0.00070557527318194,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "7-2.3",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca035ae-981c-11e3-9abe-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9fff30-981c-11e3-a890-843835586624",
+    "timestamp": 1392673279.4895,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 4.8693107328598,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4895,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 3.8505204012829e-5,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "7-2.4",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca04d82-981c-11e3-87f7-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3c9fff30-981c-11e3-a890-843835586624",
+    "timestamp": 1392673279.4902,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 4.8693492380638,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4902,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -2.1013151467741e-6,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "7-2.5",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca0652e-981c-11e3-9474-843835586624"
+  },
+  {
+    "__indent": 0,
+    "parent_uuid": null,
+    "timestamp": 1392673279.4994,
+    "itername": "",
+    "data": {
+      "Constraint ( dis2.y2<24.0 )[0]": {
+        "iotype": "out",
+        "value": -22.430673149556,
+        "data_node": "Constraint ( dis2.y2<24.0 )[0]"
+      },
+      "timestamp": 1392673279.4994,
+      "driver.workflow.itername": {
+        "iotype": "out",
+        "value": "8",
+        "data_node": "driver.workflow.itername"
+      },
+      "dis1.x1[0]": {
+        "iotype": "in",
+        "value": -3.0270230766405e-13,
+        "data_node": "dis1.x1[0]"
+      },
+      "Constraint ( 3.16<dis1.y1 )[0]": {
+        "iotype": "out",
+        "value": -2.394160783298,
+        "data_node": "Constraint ( 3.16<dis1.y1 )[0]"
+      },
+      "dis1.z2[0]": {
+        "iotype": "in",
+        "value": 1.3404178505493,
+        "data_node": "dis1.z2[0]"
+      },
+      "Objective": {
+        "iotype": "out",
+        "value": 7.1027639088728,
+        "data_node": "Objective"
+      },
+      "dis1.z1[0]": {
+        "iotype": "in",
+        "value": -2.1278177096108,
+        "data_node": "dis1.z1[0]"
+      }
+    },
+    "uuid": "3ca13c2e-981c-11e3-ac52-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca13c2e-981c-11e3-ac52-843835586624",
+    "timestamp": 1392673279.4964,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 1.4248741312638,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4964,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 0.15057412786382,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "8-2.2",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca15af5-981c-11e3-acba-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca13c2e-981c-11e3-ac52-843835586624",
+    "timestamp": 1392673279.497,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 1.5754482591276,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.497,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -0.0063811856697815,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "8-2.3",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca172a1-981c-11e3-bb47-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca13c2e-981c-11e3-ac52-843835586624",
+    "timestamp": 1392673279.4976,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 1.5690670734578,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4976,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 0.0002707790623,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "8-2.4",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca18a07-981c-11e3-8979-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca13c2e-981c-11e3-ac52-843835586624",
+    "timestamp": 1392673279.4982,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 1.5693378525201,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4982,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -1.1489599416326e-5,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "8-2.5",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca1a18c-981c-11e3-8565-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca13c2e-981c-11e3-ac52-843835586624",
+    "timestamp": 1392673279.4989,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 1.5693263629207,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.4989,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 4.8752367254323e-7,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "8-2.6",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca1b92e-981c-11e3-b51c-843835586624"
+  },
+  {
+    "__indent": 0,
+    "parent_uuid": null,
+    "timestamp": 1392673279.5038,
+    "itername": "",
+    "data": {
+      "Constraint ( dis2.y2<24.0 )[0]": {
+        "iotype": "out",
+        "value": -20.941817197113,
+        "data_node": "Constraint ( dis2.y2<24.0 )[0]"
+      },
+      "timestamp": 1392673279.5038,
+      "driver.workflow.itername": {
+        "iotype": "out",
+        "value": "9",
+        "data_node": "driver.workflow.itername"
+      },
+      "dis1.x1[0]": {
+        "iotype": "in",
+        "value": 0.22367212563528,
+        "data_node": "dis1.x1[0]"
+      },
+      "Constraint ( 3.16<dis1.y1 )[0]": {
+        "iotype": "out",
+        "value": -0.71507234026201,
+        "data_node": "Constraint ( 3.16<dis1.y1 )[0]"
+      },
+      "dis1.z2[0]": {
+        "iotype": "in",
+        "value": 2.4398987744366,
+        "data_node": "dis1.z2[0]"
+      },
+      "Objective": {
+        "iotype": "out",
+        "value": 6.4119733113525,
+        "data_node": "Objective"
+      },
+      "dis1.z1[0]": {
+        "iotype": "in",
+        "value": -1.3502363144118,
+        "data_node": "dis1.z1[0]"
+      }
+    },
+    "uuid": "3ca1ebcf-981c-11e3-8a84-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca1ebcf-981c-11e3-8a84-843835586624",
+    "timestamp": 1392673279.5009,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 3.1324164178582,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5009,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -0.078008243687033,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "9-2.2",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca2087a-981c-11e3-bc2b-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca1ebcf-981c-11e3-8a84-843835586624",
+    "timestamp": 1392673279.5015,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 3.0544081741712,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5015,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 0.0039663953287397,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "9-2.3",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca22011-981c-11e3-8e79-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca1ebcf-981c-11e3-8a84-843835586624",
+    "timestamp": 1392673279.5021,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 3.0583745694999,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5021,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -0.0002014818867826,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "9-2.4",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca237ab-981c-11e3-9bc1-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca1ebcf-981c-11e3-8a84-843835586624",
+    "timestamp": 1392673279.5027,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 3.0581730876131,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5027,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 1.0235218451893e-5,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "9-2.5",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca24f61-981c-11e3-93c3-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca1ebcf-981c-11e3-8a84-843835586624",
+    "timestamp": 1392673279.5033,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 3.0581833228316,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5033,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -5.1994469574268e-7,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "9-2.6",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca266f8-981c-11e3-b4da-843835586624"
+  },
+  {
+    "__indent": 0,
+    "parent_uuid": null,
+    "timestamp": 1392673279.5151,
+    "itername": "",
+    "data": {
+      "Constraint ( dis2.y2<24.0 )[0]": {
+        "iotype": "out",
+        "value": -23.963365115241,
+        "data_node": "Constraint ( dis2.y2<24.0 )[0]"
+      },
+      "timestamp": 1392673279.5151,
+      "driver.workflow.itername": {
+        "iotype": "out",
+        "value": "10",
+        "data_node": "driver.workflow.itername"
+      },
+      "dis1.x1[0]": {
+        "iotype": "in",
+        "value": 0.14003968939319,
+        "data_node": "dis1.x1[0]"
+      },
+      "Constraint ( 3.16<dis1.y1 )[0]": {
+        "iotype": "out",
+        "value": -0.18747523737264,
+        "data_node": "Constraint ( 3.16<dis1.y1 )[0]"
+      },
+      "dis1.z2[0]": {
+        "iotype": "in",
+        "value": 3.4483527144857e-12,
+        "data_node": "dis1.z2[0]"
+      },
+      "Objective": {
+        "iotype": "out",
+        "value": 4.3311144044163,
+        "data_node": "Objective"
+      },
+      "dis1.z1[0]": {
+        "iotype": "in",
+        "value": -1.7929757944255,
+        "data_node": "dis1.z1[0]"
+      }
+    },
+    "uuid": "3ca33f23-981c-11e3-a385-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca33f23-981c-11e3-a385-843835586624",
+    "timestamp": 1392673279.5097,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": -0.13672544371233,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5097,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 0.18281108859427,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "10-2.2",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca35f4a-981c-11e3-99d5-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca33f23-981c-11e3-a385-843835586624",
+    "timestamp": 1392673279.5105,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.046085644881937,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5105,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -0.0099674669187522,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "10-2.3",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca37a51-981c-11e3-9b97-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca33f23-981c-11e3-a385-843835586624",
+    "timestamp": 1392673279.5117,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.036118177963185,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5117,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 0.00054485896912548,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "10-2.4",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca3a266-981c-11e3-b927-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca33f23-981c-11e3-a385-843835586624",
+    "timestamp": 1392673279.5131,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.03666303693231,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5131,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -2.9779833810917e-5,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "10-2.5",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca3d91e-981c-11e3-9b66-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca33f23-981c-11e3-a385-843835586624",
+    "timestamp": 1392673279.5143,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.0366332570985,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5143,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 1.6276603209686e-6,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "10-2.6",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca406a3-981c-11e3-84db-843835586624"
+  },
+  {
+    "__indent": 0,
+    "parent_uuid": null,
+    "timestamp": 1392673279.5254,
+    "itername": "",
+    "data": {
+      "Constraint ( dis2.y2<24.0 )[0]": {
+        "iotype": "out",
+        "value": -23.560657365418,
+        "data_node": "Constraint ( dis2.y2<24.0 )[0]"
+      },
+      "timestamp": 1392673279.5254,
+      "driver.workflow.itername": {
+        "iotype": "out",
+        "value": "11",
+        "data_node": "driver.workflow.itername"
+      },
+      "dis1.x1[0]": {
+        "iotype": "in",
+        "value": 0.16129625048882,
+        "data_node": "dis1.x1[0]"
+      },
+      "Constraint ( 3.16<dis1.y1 )[0]": {
+        "iotype": "out",
+        "value": -0.015248029753522,
+        "data_node": "Constraint ( 3.16<dis1.y1 )[0]"
+      },
+      "dis1.z2[0]": {
+        "iotype": "in",
+        "value": 0.32407634041895,
+        "data_node": "dis1.z2[0]"
+      },
+      "Objective": {
+        "iotype": "out",
+        "value": 4.1698007781324,
+        "data_node": "Objective"
+      },
+      "dis1.z1[0]": {
+        "iotype": "in",
+        "value": -1.6666562714253,
+        "data_node": "dis1.z1[0]"
+      }
+    },
+    "uuid": "3ca5217d-981c-11e3-9eef-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca5217d-981c-11e3-9eef-843835586624",
+    "timestamp": 1392673279.5224,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.46180059054927,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5224,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -0.02371895913586,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "11-2.2",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca54940-981c-11e3-afbf-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca5217d-981c-11e3-9eef-843835586624",
+    "timestamp": 1392673279.5233,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.43808163141341,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5233,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 0.0013315328828993,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "11-2.3",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca56e47-981c-11e3-9987-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca5217d-981c-11e3-9eef-843835586624",
+    "timestamp": 1392673279.524,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.43941316429631,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.524,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -7.472311784662e-5,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "11-2.4",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca58c97-981c-11e3-aa6e-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca5217d-981c-11e3-9eef-843835586624",
+    "timestamp": 1392673279.5247,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.43933844117846,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5247,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 4.1934036425495e-6,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "11-2.5",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca5a851-981c-11e3-aff4-843835586624"
+  },
+  {
+    "__indent": 0,
+    "parent_uuid": null,
+    "timestamp": 1392673279.5348,
+    "itername": "",
+    "data": {
+      "Constraint ( dis2.y2<24.0 )[0]": {
+        "iotype": "out",
+        "value": -23.781682380916,
+        "data_node": "Constraint ( dis2.y2<24.0 )[0]"
+      },
+      "timestamp": 1392673279.5348,
+      "driver.workflow.itername": {
+        "iotype": "out",
+        "value": "12",
+        "data_node": "driver.workflow.itername"
+      },
+      "dis1.x1[0]": {
+        "iotype": "in",
+        "value": 0.14699992052203,
+        "data_node": "dis1.x1[0]"
+      },
+      "Constraint ( 3.16<dis1.y1 )[0]": {
+        "iotype": "out",
+        "value": -0.001489960776639,
+        "data_node": "Constraint ( 3.16<dis1.y1 )[0]"
+      },
+      "dis1.z2[0]": {
+        "iotype": "in",
+        "value": 0.14659021365599,
+        "data_node": "dis1.z2[0]"
+      },
+      "Objective": {
+        "iotype": "out",
+        "value": 4.133559227703,
+        "data_node": "Objective"
+      },
+      "dis1.z1[0]": {
+        "iotype": "in",
+        "value": -1.7063305128571,
+        "data_node": "dis1.z1[0]"
+      }
+    },
+    "uuid": "3ca69cf8-981c-11e3-bc16-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca69cf8-981c-11e3-bc16-843835586624",
+    "timestamp": 1392673279.5317,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.20584353201436,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5317,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 0.01317563731374,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "12-2.2",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca6be07-981c-11e3-a203-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca69cf8-981c-11e3-bc16-843835586624",
+    "timestamp": 1392673279.5325,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.2190191693281,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5325,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -0.00074087486389907,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "12-2.3",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca6d651-981c-11e3-aaa8-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca69cf8-981c-11e3-bc16-843835586624",
+    "timestamp": 1392673279.5334,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.2182782944642,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5334,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 4.1668078466284e-5,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "12-2.4",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca6f7ae-981c-11e3-84a0-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca69cf8-981c-11e3-bc16-843835586624",
+    "timestamp": 1392673279.5342,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.21831996254267,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5342,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -2.3434585891824e-6,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "12-2.5",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca71819-981c-11e3-9ad5-843835586624"
+  },
+  {
+    "__indent": 0,
+    "parent_uuid": null,
+    "timestamp": 1392673279.5432,
+    "itername": "",
+    "data": {
+      "Constraint ( dis2.y2<24.0 )[0]": {
+        "iotype": "out",
+        "value": -23.806766374343,
+        "data_node": "Constraint ( dis2.y2<24.0 )[0]"
+      },
+      "timestamp": 1392673279.5432,
+      "driver.workflow.itername": {
+        "iotype": "out",
+        "value": "13",
+        "data_node": "driver.workflow.itername"
+      },
+      "dis1.x1[0]": {
+        "iotype": "in",
+        "value": 0.13155614099628,
+        "data_node": "dis1.x1[0]"
+      },
+      "Constraint ( 3.16<dis1.y1 )[0]": {
+        "iotype": "out",
+        "value": -5.6286649175785e-5,
+        "data_node": "Constraint ( 3.16<dis1.y1 )[0]"
+      },
+      "dis1.z2[0]": {
+        "iotype": "in",
+        "value": 0.12952719720571,
+        "data_node": "dis1.z2[0]"
+      },
+      "Objective": {
+        "iotype": "out",
+        "value": 4.1311798785838,
+        "data_node": "Objective"
+      },
+      "dis1.z1[0]": {
+        "iotype": "in",
+        "value": -1.7139482867984,
+        "data_node": "dis1.z1[0]"
+      }
+    },
+    "uuid": "3ca81a00-981c-11e3-9d3f-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca81a00-981c-11e3-9d3f-843835586624",
+    "timestamp": 1392673279.5415,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.1918215952656,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5415,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 0.0014911953858818,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "13-2.2",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca83966-981c-11e3-a2ab-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca81a00-981c-11e3-9d3f-843835586624",
+    "timestamp": 1392673279.5421,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.19331279065149,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5421,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -8.3883790757522e-5,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "13-2.3",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca8516b-981c-11e3-8e86-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca81a00-981c-11e3-9d3f-843835586624",
+    "timestamp": 1392673279.5427,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.19322890686073,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5427,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 4.7187961402795e-6,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "13-2.4",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca8695c-981c-11e3-a0dd-843835586624"
+  },
+  {
+    "__indent": 0,
+    "parent_uuid": null,
+    "timestamp": 1392673279.5504,
+    "itername": "",
+    "data": {
+      "Constraint ( dis2.y2<24.0 )[0]": {
+        "iotype": "out",
+        "value": -23.80640146089,
+        "data_node": "Constraint ( dis2.y2<24.0 )[0]"
+      },
+      "timestamp": 1392673279.5504,
+      "driver.workflow.itername": {
+        "iotype": "out",
+        "value": "14",
+        "data_node": "driver.workflow.itername"
+      },
+      "dis1.x1[0]": {
+        "iotype": "in",
+        "value": 0.11620474368324,
+        "data_node": "dis1.x1[0]"
+      },
+      "Constraint ( 3.16<dis1.y1 )[0]": {
+        "iotype": "out",
+        "value": -1.0190378917141e-5,
+        "data_node": "Constraint ( 3.16<dis1.y1 )[0]"
+      },
+      "dis1.z2[0]": {
+        "iotype": "in",
+        "value": 0.13329034978181,
+        "data_node": "dis1.z2[0]"
+      },
+      "Objective": {
+        "iotype": "out",
+        "value": 4.1307927197025,
+        "data_node": "Objective"
+      },
+      "dis1.z1[0]": {
+        "iotype": "in",
+        "value": -1.7173335604003,
+        "data_node": "dis1.z1[0]"
+      }
+    },
+    "uuid": "3ca9418a-981c-11e3-819a-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca9418a-981c-11e3-819a-843835586624",
+    "timestamp": 1392673279.5491,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.193619262904,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5491,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -2.1959087289636e-5,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "14-2.2",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca96168-981c-11e3-9ba1-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3ca9418a-981c-11e3-819a-843835586624",
+    "timestamp": 1392673279.5498,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.19359730381671,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5498,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 1.2352936087368e-6,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "14-2.3",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3ca97cae-981c-11e3-8682-843835586624"
+  },
+  {
+    "__indent": 0,
+    "parent_uuid": null,
+    "timestamp": 1392673279.5582,
+    "itername": "",
+    "data": {
+      "Constraint ( dis2.y2<24.0 )[0]": {
+        "iotype": "out",
+        "value": -23.801785925449,
+        "data_node": "Constraint ( dis2.y2<24.0 )[0]"
+      },
+      "timestamp": 1392673279.5582,
+      "driver.workflow.itername": {
+        "iotype": "out",
+        "value": "15",
+        "data_node": "driver.workflow.itername"
+      },
+      "dis1.x1[0]": {
+        "iotype": "in",
+        "value": 0.11274294001417,
+        "data_node": "dis1.x1[0]"
+      },
+      "Constraint ( 3.16<dis1.y1 )[0]": {
+        "iotype": "out",
+        "value": 3.9553487862776e-7,
+        "data_node": "Constraint ( 3.16<dis1.y1 )[0]"
+      },
+      "dis1.z2[0]": {
+        "iotype": "in",
+        "value": 0.13785389345895,
+        "data_node": "dis1.z2[0]"
+      },
+      "Objective": {
+        "iotype": "out",
+        "value": 4.1307587200739,
+        "data_node": "Objective"
+      },
+      "dis1.z1[0]": {
+        "iotype": "in",
+        "value": -1.7172785911186,
+        "data_node": "dis1.z1[0]"
+      }
+    },
+    "uuid": "3caa5ef5-981c-11e3-8542-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3caa5ef5-981c-11e3-8542-843835586624",
+    "timestamp": 1392673279.5563,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.19847381806729,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5563,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -0.00027430645943016,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "15-2.2",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3caa7dd4-981c-11e3-ac6c-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3caa5ef5-981c-11e3-8542-843835586624",
+    "timestamp": 1392673279.557,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.19819951160786,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.557,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": 1.5431004338318e-5,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "15-2.3",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3caa959c-981c-11e3-a360-843835586624"
+  },
+  {
+    "__indent": 1,
+    "parent_uuid": "3caa5ef5-981c-11e3-8542-843835586624",
+    "timestamp": 1392673279.5577,
+    "itername": "",
+    "data": {
+      "dis1.y2[0]": {
+        "iotype": "in",
+        "value": 0.1982149426122,
+        "data_node": "dis1.y2[0]"
+      },
+      "timestamp": 1392673279.5577,
+      "Constraint ( dis2.y2=dis1.y2 )[0]": {
+        "iotype": "out",
+        "value": -8.6806165633391e-7,
+        "data_node": "Constraint ( dis2.y2=dis1.y2 )[0]"
+      },
+      "solver.workflow.itername": {
+        "iotype": "out",
+        "value": "15-2.4",
+        "data_node": "solver.workflow.itername"
+      }
+    },
+    "uuid": "3caab2d7-981c-11e3-bf52-843835586624"
+  }
+]

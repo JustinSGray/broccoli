@@ -1,5 +1,12 @@
 <template name="project">
     <div class="col-xs-12">
       <h1> Project: {{proj.name}}</h1>
+      <form role="form" id="new-sim-form">
+        <div class="form-group">
+          <label for="newSimulationFile">New Simulation</label>
+          <input type="file" name="newSimulationFile">
+          <button type="button" class="btn btn-primary">Upload</button>
+        </div>
+      </form>
     </div>
 </template> 
