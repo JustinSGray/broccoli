@@ -43,7 +43,7 @@ reset_form_errors = function(error) {
 };
 
 
-Handlebars.registerHelper(
+UI.registerHelper(
     "formErrors",
     function (field_name) {
         var errs = Session.get('form-errors');
@@ -58,7 +58,7 @@ Handlebars.registerHelper(
     }
 );
 
-Handlebars.registerHelper(
+UI.registerHelper(
     "formErrorClass",
     function (field_name) {
         var errs = Session.get('form-errors');
