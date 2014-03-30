@@ -29,7 +29,7 @@ suite('Project collection behavior', function() {
 
     };
 
-    run_test(client, test);
+    runTestWithUser(client, test);
   });
 
 
@@ -74,7 +74,7 @@ suite('Project collection behavior', function() {
 
     }
     
-    run_test(client, test);
+    runTestWithUser(client, test);
   });
 });
 
@@ -114,7 +114,7 @@ suite('Project creation behavior', function(){
       });
     };
 
-    run_test(client, test);
+    runTestWithUser(client, test);
   });
 });
 
@@ -140,6 +140,6 @@ suite('Project Page', function(){
       });
     }
 
-    run_test(client, test);
+    runTestWithUser(client, test);
   });
 });

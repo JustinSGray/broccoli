@@ -9,7 +9,7 @@ function setup(client, cb) {
   });
 }
 
-suite('Project functionality', function() {
+suite('Project functionality', function(uId) {
 
   test('Error msg for no name', function(done, server, client) {
     var test = function(){
@@ -49,7 +49,7 @@ suite('Project functionality', function() {
       });
     }
 
-    run_test(client, test)
+    runTestWithUser(client, test)
   });
 
   test('Valid name creates a project', function(done, server, client) {
@@ -107,7 +107,7 @@ suite('Project functionality', function() {
       });
     });
 
-    run_test(client);
+    runTestWithUser(client);
 
   });
 });
