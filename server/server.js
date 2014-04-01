@@ -13,5 +13,11 @@ Meteor.publish('userData', function(){
 
 
 Meteor.publish('simulations', function(projectId){
-  return Simulations.find({projectId:projectId});
+  proj = Projects.findOne({_id:projectId});
+  if (proj.userId === this.userId){
+    return Simulations.find({projectId:projectId});
+  }
+  else {
+    this.ready();
+  }
 });

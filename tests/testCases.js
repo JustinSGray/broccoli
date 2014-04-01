@@ -15,7 +15,7 @@ suite('Cases collection behavior', function(){
             var pCb = function(error, result) {
               var sCb = function(error, result){
                 var switchUserCb = function(){
-                  emit('loggedBackIn', result);
+                  emit('loggedBackIn');
                 }
                 Meteor.loginWithPassword('test', '123456', switchUserCb);
               }
@@ -25,19 +25,32 @@ suite('Cases collection behavior', function(){
           }
 
           Accounts.createUser({username:'someone', password:'testtest'}, otherUserloginCb);
-        }).once('loggedBackIn', function(sId){
-          var failCb = function(error, result){
-            emit('insertFailed', error, result);
-          }
-          Cases.insert({simId:sId}, failCb);
+        }).once('loggedBackIn', function(){
+          client.eval(function(){
+            var pId = Projects.findOne()._id;
 
-          var mySimId = Simulations.findOne()._id;
-          var successCb = function(error, result) {
-            emit('insertSuccess', error, result);
-          }
-          Cases.insert({simId:sId}, successCb);
+            var cb = function(){
+              var simCount = Simulations.find().count();
+              emit('simCount', simCount);
+              var failCb = function(error, result){
+                emit('insertFailed', error, result);
+              }
+              Cases.insert({simId:'aaaaaaaa'}, failCb);
+
+              var mySimId = Simulations.findOne()._id;
+              var successCb = function(error, result) {
+                emit('insertSuccess', error, result);
+              }
+              Cases.insert({simId:mySimId}, successCb);
+            }
+
+            Meteor.subscribe('simulations', pId, cb);
+            
+          });
+        }).once('simCount', function(count){
+          assert.equal(count, 1);
         }).once('insertFailed', function(error, result){
-          assert.equal(result, undefined);
+          assert.equal(result, false);
           assert.equal(error.error, 403);
           assert.equal(error.reason, 'Access denied');
         }).once('insertSuccess', function(error, result){
