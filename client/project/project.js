@@ -14,3 +14,7 @@ Template.project.events = ({
     reader.readAsText(file, 'UTF-8');
   }
 });
+
+parseCaseData = function(data, cb){
+  
+};

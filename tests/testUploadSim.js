@@ -11,7 +11,7 @@ suite('Simulation upload into a project', function(done, server, client){ // not
         var cb = function(error, result){ // should get error, or simId as result
           emit('caseCount', Cases.find({simId: result}).count());
         }
-        parseData(testData, cb); //callback made when the last case has been created
+        parseCaseData(testData, cb); //callback made when the last case has been created
 
 
       }).once('caseCount', function(nCases){
