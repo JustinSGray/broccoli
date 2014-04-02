@@ -1,13 +1,3 @@
-suite('Simulation publication: ', function(){
-  test('User only sees simulations related to the specified project', function(){
-    assert.equal(false, true);
-  });
-
-  test("User can't see simulations they don't own", function(){
-    assert.equal(false, true);
-  });
-});
-
 suite('Simulation collection behavior', function(){
 
   // Test that when a simulation is created, it's associated with the correct user

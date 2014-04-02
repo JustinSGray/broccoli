@@ -63,7 +63,18 @@ suite('Cases collection behavior', function(){
   });
 
   test('Case can not be created unless logged in', function(done, server, client){
-    assert.equal(false,true);
+    client.eval(function(){
+
+      var failCb = function(error, result) {
+        emit('failed', error, result);
+      }
+      Cases.insert({simId:'aaaaa'}, failCb);
+    }).once('failed', function(error, result){
+      assert.equal(result, false);
+      assert.equal(error.error, 403);
+      assert.equal(error.reason, 'Access denied');
+      done();
+    });
   });
 
 });
