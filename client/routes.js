@@ -43,6 +43,7 @@ Router.map( function() {
     template: 'project', 
     waitOn: function(){
       Meteor.subscribe('userProjects');
+      Meteor.subscribe('simulations', this.params.urlName);
     }, 
     onBeforeAction: function(){
       var proj = Projects.findOne({urlName:this.params.urlName});

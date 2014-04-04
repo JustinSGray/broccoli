@@ -13,6 +13,9 @@ Meteor.publish('userData', function(){
 
 
 Meteor.publish('simulations', function(projectId){
+  if (!this.userId){
+    this.ready();
+  }
   proj = Projects.findOne({_id:projectId});
   if (proj.userId === this.userId){
     return Simulations.find({projectId:projectId});
@@ -21,3 +24,17 @@ Meteor.publish('simulations', function(projectId){
     this.ready();
   }
 });
+
+Meteor.publish('cases', function(simId){
+  if (!this.userId){
+    this.ready();
+  }
+  sim = Simulations.findOne({_id:simId});
+  if (sim.userId === this.userId){
+    return Cases.find({simId:simId});
+  }
+  else {
+    this.ready();
+  }
+
+})
