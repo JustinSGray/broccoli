@@ -7,7 +7,9 @@ Router.map( function() {
     path:"/",
     template: 'splash',
     waitOn: function() {
-      Meteor.subscribe('userData');
+      return Meteor.subscribe('userData');
+    }, 
+    onBeforeAction: function(){
       var u = Meteor.user();
       if (u) {
         this.redirect(Router.routes['dashboard'].path({username: u.username}))
@@ -34,7 +36,7 @@ Router.map( function() {
     path: '/:username',
     template: 'dashboard', 
     waitOn: function() {
-      Meteor.subscribe('userProjects');
+      return Meteor.subscribe('userProjects');
     }
   });
 
@@ -42,15 +44,25 @@ Router.map( function() {
     path:'/projects/:urlName', 
     template: 'project', 
     waitOn: function(){
-      Meteor.subscribe('userProjects');
-      Meteor.subscribe('simulations', this.params.urlName);
-    }, 
-    onBeforeAction: function(){
-      var proj = Projects.findOne({urlName:this.params.urlName});
-      Session.set('project', proj);
+      var that = this;
+
+      var cb = function(){
+        var proj = Projects.findOne({urlName:that.params.urlName});
+        Session.set('project', proj);
+        Meteor.subscribe('simulations',proj._id);
+      }
+
+      Deps.autorun(function(){
+
+        Meteor.subscribe('cases', Session.get('simulationId'));
+      });
+
+      return Meteor.subscribe('userProjects', cb);
     },
+      
     onStop: function(){
       Session.set('project', null);
+      Session.set('simulation', null);
     }
   });
 

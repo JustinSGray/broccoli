@@ -2,16 +2,31 @@ Template.project.proj = function(){
   return Session.get('project');
 }
 
+Template.project.simulations = function(){
+  return Simulations.find().fetch()
+}
+
+
 Template.project.events = ({
   'click #new-sim-form button': function(event, template) {
     var reader = new FileReader();
     reader.onload = function(evt) {
-      var sim_data = $.parseJSON(evt.target.result);
-      var nCases = sim_data.length;
+      var projId = Session.get('project')._id;
+
+      var cb = function(error, result) {
+        $(event.target).prev().val('');
+      }
+
+      parseSimData(projId, evt.target.result, null, cb);
     }
 
     var file = $(event.target).prev()[0].files[0];
     reader.readAsText(file, 'UTF-8');
+  }, 
+  'change #sim-select': function(event, template) {
+    var sim = Simulations.findOne({_id:event.currentTarget.value})
+    Session.set('simulation', sim);
+    Session.set('simulationId', sim._id);
   }
 });
 
@@ -52,15 +67,9 @@ parseSimData = function(projectId, data, name, cb){
         cb(null, simId);
       } 
     }
-
-
     Cases.insert(caseData, finalCb);
   }
 
   // make a new simulation
-  Simulations.insert({name:name, projectId:projectId}, simCb);
-
-
-
-  
+  Simulations.insert({name:name, projectId:projectId}, simCb);  
 };

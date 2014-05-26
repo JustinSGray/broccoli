@@ -37,4 +37,4 @@ Meteor.publish('cases', function(simId){
     this.ready();
   }
 
-})
+});

@@ -1,4 +1,5 @@
 <template name="project">
+  <div class="row">
     <div class="col-xs-12">
       <h1> Project: {{proj.name}}</h1>
       <form role="form" id="new-sim-form">
@@ -9,4 +10,26 @@
         </div>
       </form>
     </div>
+  </div>
+  <div class="row">
+     <div class="col-xs-12">
+      <h2> Simulations </h2>
+      <form role="form">
+        <div class="form-group">
+          <label> Simulation </label>
+          <select class="span2" id="sim-select">
+            {{#each simulations}}
+              <option value="{{this._id}}">{{this._id}}</option>
+            {{/each}}
+          </select>
+        </div>
+      </form>
+      
+     </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <div id="myGrid" style="width:1000px;height:800px;"></div>
+    </div>
+  </div>
 </template> 
