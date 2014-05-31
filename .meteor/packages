@@ -17,3 +17,4 @@ accounts-password
 github-api
 collection-hooks
 iron-router
+mocha-web

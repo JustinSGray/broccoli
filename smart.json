@@ -7,10 +7,7 @@
     },
     "github-api": {},
     "collection-hooks": {},
-    "moment": {}, 
-
-    "SlickGrid": {
-        "path": "/Users/justin/personal/meteor_projects/meteor-slickgrid"
-    }
+    "moment": {},
+    "mocha-web": {}
   }
 }
