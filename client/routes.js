@@ -2,20 +2,24 @@ Router.configure({
   layoutTemplate: 'layout'
 });
 
+
 Router.map( function() {
-  this.route('splash', {
-    path:"/",
-    template: 'splash',
+
+  this.route('tests',{
+    path:"/tests", 
+    template: "tests",
     waitOn: function() {
       return Meteor.subscribe('userData');
     }, 
-    onBeforeAction: function(){
-      var u = Meteor.user();
-      if (u) {
-        this.redirect(Router.routes['dashboard'].path({username: u.username}))
-      }
+    action: function(){
+      if (this.ready())
+        this.render();
+      else
+        this.render('test-loading');
     }
   });
+
+  
 
   this.route('logout', {
     path: "/logout",
@@ -63,6 +67,20 @@ Router.map( function() {
     onStop: function(){
       Session.set('project', null);
       Session.set('simulation', null);
+    }
+  });
+
+  this.route('splash', {
+    path:"/",
+    template: 'splash',
+    waitOn: function() {
+      return Meteor.subscribe('userData');
+    }, 
+    onBeforeAction: function(){
+      var u = Meteor.user();
+      if (u) {
+        this.redirect(Router.routes['dashboard'].path({username: u.username}))
+      }
     }
   });
 
