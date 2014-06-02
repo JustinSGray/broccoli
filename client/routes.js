@@ -3,6 +3,13 @@ Router.configure({
 });
 
 
+function loading(){
+  if (this.ready())
+    this.render();
+  else
+    this.render('loadingWait');
+}
+
 Router.map( function() {
 
   this.route('tests',{
@@ -11,15 +18,8 @@ Router.map( function() {
     waitOn: function() {
       return Meteor.subscribe('userData');
     }, 
-    action: function(){
-      if (this.ready())
-        this.render();
-      else
-        this.render('test-loading');
-    }
+    action: loading
   });
-
-  
 
   this.route('logout', {
     path: "/logout",
@@ -41,7 +41,8 @@ Router.map( function() {
     template: 'dashboard', 
     waitOn: function() {
       return Meteor.subscribe('userProjects');
-    }
+    }, 
+    action: loading
   });
 
   this.route('project', {
@@ -64,6 +65,8 @@ Router.map( function() {
       return Meteor.subscribe('userProjects', cb);
     },
       
+    action: loading, 
+
     onStop: function(){
       Session.set('project', null);
       Session.set('simulation', null);
@@ -81,7 +84,8 @@ Router.map( function() {
       if (u) {
         this.redirect(Router.routes['dashboard'].path({username: u.username}))
       }
-    }
+    }, 
+    action: loading
   });
 
 });
